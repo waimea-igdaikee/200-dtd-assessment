@@ -37,7 +37,27 @@ Replace this text with a brief statement about the system that you intend to cre
 
 ## Relevant Implications
 
-### IMPLICATION NAME HERE
+### Aesthetics
+
+Aesthetics involves ensuring that a design looks good, appeals to the target audience and follows design conventions.
+
+My website needs to look good in order to appeal to the public - it's well known that a prettier website improves public interaction. It is important that my design doesn't get in the way of established conventions however...
+
+I will need to consider my choice of colour scheme, font, and element positioning. I will need to ensure that whenever I make design choices on the public part of the website I get feedback fom members of the public. I will also need to consider that my design is accessible to all people, which will affect my design choices.
+
+### Accessibility
+
+Accessibility is making sure everyone can use a website, no matter their device, disabilities, or technical expertise.
+
+It's vital that *anyone* using my website is able to do so easily - every member of the public is a potential customer and having people be turned away because they aren't able to interact with my website (e.g. because they are colour-blind and can't read red text on green) would not only be bad for my Mum's business, but also verging on ableist - everyone should to be able to use my website.
+
+To make my website accessible to all I will need to ensure that my website works on all devices and screen sizes - this may look like responsive design and/or a separate layout for mobile devices. I will also need to make sure the content of my website is able to be viewed and interacted with by everyone. This will include
+- Selecting a good colour scheme to ensure that people with colour-blindness or impaired vision can read the text,
+- Selecting a readable font and font size to make it readable on any device,
+- Providing alt text for images to ensure that users with a screen reader can interact properly,
+- Making UI components like buttons appropriately sized and easily clickable on all devices and screen sizes.
+
+### Functionality
 
 Replace this text with a clear explanation of what the implication means.
 
