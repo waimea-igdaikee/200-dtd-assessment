@@ -49,7 +49,7 @@ I will need to consider my choice of colour scheme, font, and element positionin
 
 Accessibility is making sure everyone can use a website, no matter their device, disabilities, or technical expertise.
 
-It's vital that *anyone* using my website is able to do so easily - every member of the public is a potential customer and having people be turned away because they aren't able to interact with my website (e.g. because they are colour-blind and can't read red text on green) would not only be bad for my Mum's business, but also verging on ableist - everyone should to be able to use my website.
+It's vital that *anyone* using my website is able to do so easily - every member of the public is a potential customer and having people be turned away because they aren't able to interact with my website (e.g. because they are colour-blind and can't read red text on green) would not only be bad for my Mum's business, but also verging on discriminatory - everyone should to be able to use my website.
 
 To make my website accessible to all I will need to ensure that my website works on all devices and screen sizes - this may look like responsive design and/or a separate layout for mobile devices. I will also need to make sure the content of my website is able to be viewed and interacted with by everyone. This will include
 - Selecting a good colour scheme to ensure that people with colour-blindness or impaired vision can read the text,
@@ -59,11 +59,11 @@ To make my website accessible to all I will need to ensure that my website works
 
 ### Functionality
 
-Replace this text with a clear explanation of what the implication means.
+Functionality is ensuring a website works as intended, as expected, and well.
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+A functional design is very important for both the public and admin sides of the website - the public are going to expect it to work as expected from their point of view, without bugs and issues. My Mum also needs a functional admin interface in order to effectively manage bookings, and this certainly needs to be bug free and work as expected else she will freak out.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+I'll need to get feedback and testing from both my Mum and members of the public to make sure my website works as they expect it to.
 
 ### IMPLICATION NAME HERE
 
