@@ -1,4 +1,4 @@
-# The Design of a Database-Linked Website for NCEA Level 2
+# Design of a Database-Linked Website for NCEA Level 2
 
 Project Name: **Life Coaching Website**
 
@@ -20,7 +20,7 @@ My Mum needs a website to manage her services and keep track of her bookings for
 I have two end user groups: members of the public and my Mum. Requirements for members of the public include:
 - A page listing my Mum's different services
 - A page for creating a booking
-- Attractive, aestetically pleasing website
+- Attractive, aesthetically pleasing website
 - Suitable level of language
 
 
@@ -61,11 +61,34 @@ To make my website accessible to all I will need to ensure that my website works
 
 Functionality is ensuring a website works as intended, as expected, and well.
 
-A functional design is very important for both the public and admin sides of the website - the public are going to expect it to work as expected from their point of view, without bugs and issues. My Mum also needs a functional admin interface in order to effectively manage bookings, and this certainly needs to be bug free and work as expected else she will freak out.
+A functional design is very important for both the public and admin sides of the website - the public are going to expect it to work as expected from their point of view, without bugs and issues; if there are any bugs then they are unlikely to use the website and consequentially my Mum's services. My Mum also needs a functional admin interface in order to effectively manage bookings, and this certainly needs to be bug free and work as expected else she will freak out.
 
-I'll need to get feedback and testing from both my Mum and members of the public to make sure my website works as they expect it to.
+I'll need to get feedback and testing from both my Mum and members of the public to make sure my website works as they expect it to. Once I implement this feedback, I'll need to get more updated feedback from both parties, and continue this cycle until I have a final design. Once I reach this final design stage, I will need to evaluate the functionality of this design against my original design. This will ensure the website is logical and bug-free.
 
-### IMPLICATION NAME HERE
+### Usability
+
+A website's usability relates to how easy and logical it is for the end-user to use without being guided.
+
+It's important that my end users find navigating and operating the website to be an easy task for similar reasons as above - end-users will expect the website to follow established conventions (as established by Nielsen's usability heuristics), and if the website for whatever reason doesn't, these potential customers are likely to take this as a sign of unprofessionalism and find another life coach - meaning my Mum will lose a customer.\
+My Mum also needs the admin side of the website to have a high degree of usability - she needs to be able to easily manage bookings without hassle - she wants the website to * just work*.
+
+In order to make my website as usable as possible, I will need to make sure my website follows Nielsen's usability heuristics. This will include:
+- Consistency and Standards: I will need to make sure my website sticks to established layout conventions, such as having the navigation bar at the top and using standard icons, such as using a house icon for the home page. This will make navigation easy.
+- Error Prevention: I will need to make sure that wherever users can input data that there is error checking to prevent users from inputting incorrect data, e.g. they shouldn't be able to input a date that doesn't exist. This will prevent end-users from making headache-inducing mistakes. This also entails having conformation messages before users commit to an irreversible action, and by integrating these into my website will ensure my Mum doesn't accidentally delete any bookings.
+- Aesthetic and Minimalist Design: By making sure both the public and admin sides of my website have a simple design that displays only what is relevant and necessary, both the public and my Mum will have an easier time navigating and operating the website.
+- Help and Documentation: I will have a help menu to answer the any questions that members of the public may have (e.g. *how do I make a booking?*). This may be in the form of a sticky question mark button in the corner of the site, but I will get feedback on what works best. I may also implement a similar system on the admin page(s) can help my Mum if she gets confused. Ideally, though, my website will be simple and logical enough that end-users shouldn't need help.
+
+
+### Privacy
+
+Privacy is about protecting end-users and keeping their data secure and private.
+
+It's vital that the privacy of end-users is protected; this website is for a life coaching business where members of the public may disclose personal information. Aside from the ethical implications of storing sensitive data, abiding by the NZ Privacy Act 1993 is required by law, so it's vital that this system follows abides by that.
+
+My Mum doesn't need a whole lot of information about her clients; the only (potentially) sensitive info being stored would be a few short, optional sentence that customers can fill out. However, this information is identifiable by name, and if it isn't securely and private, this would be a breach of the NZ Privacy Act 1993. On my website this wil look like making sure the admin page is password-protected (and the authentication system running on the server so it can't be easily bypassed), and also having a privacy statement on what data is being collected.
+
+
+### YOUR IMPLICATION HERE
 
 Replace this text with a clear explanation of what the implication means.
 
@@ -73,57 +96,54 @@ Replace this text with an explanation of why the implication is relevant to this
 
 Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
 
-### IMPLICATION NAME HERE
+-------------------------------------------------
 
-Replace this text with a clear explanation of what the implication means.
+## Final System Design
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+### Database Structure
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+Place a image here that shows the *final design* of your database: tables, fields and relationships.
+
+### User Interface Design
+
+Place images here that show your *final design* of your UI: layout, colours, etc.
 
 
 -------------------------------------------------
 
-## Design, Development and Testing Log
+## Completed System
 
-### DATE HERE
+### Database Structure
 
-Replace this test with what you are working on
+Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+### User Interface Design
 
-### DATE HERE
+Place screenshots and notes here that show your *actual system UI* in action.
 
-Replace this test with what you are working on
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+-------------------------------------------------
 
-### DATE HERE
+## Review and Evaluation
 
-Replace this test with what you are working on
+### Meeting the Needs of the Users
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
 
-### DATE HERE
+### Meeting the System Requirements
 
-Replace this test with what you are working on
+Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+### Review of IMPLICATION NAME HERE
 
-### DATE HERE
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-Replace this test with what you are working on
+### Review of IMPLICATION NAME HERE
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### DATE HERE
+### Review of IMPLICATION NAME HERE
 
-Replace this test with what you are working on
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
 
-### DATE HERE
-
-Replace this test with what you are working on
-
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
