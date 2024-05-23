@@ -37,11 +37,11 @@ As such I have made this database in Adminer:
 
 ![Database relation diagram in Adminer](images/db3.png)
 
-### DATE HERE
+### 2024-05-23
 
-Replace this test with what you are working on
+I am working on a black and white website mockup on Figma that to show to my Mum.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+I have 
 
 ### DATE HERE
 
