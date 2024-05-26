@@ -39,15 +39,22 @@ As such I have made this database in Adminer:
 
 ### 2024-05-23
 
-I am working on a black and white website mockup on Figma that to show to my Mum.
+I am working on a black and white website mock-up on Figma that to show to my Mum.
 
-I have 
+So far I have made a very rough mock-up of the public half of the website. 
 
-### DATE HERE
+![Alt text](images/figma1.png)
 
-Replace this test with what you are working on
+Once I get the admin side of the website set up I will show my Mum what she thinks.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+### 2024-05-27
+
+I am working on the admin console for the Figma mock-up.
+
+I have completed the interactive figma mock-up:
+![Alt text](images/figma2.png)
+
+I get my Mum to interactively test it out and get feedback from her.
 
 ### DATE HERE
 
