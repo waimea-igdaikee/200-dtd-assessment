@@ -43,7 +43,7 @@ I am working on a black and white website mock-up on Figma that to show to my Mu
 
 So far I have made a very rough mock-up of the public half of the website. 
 
-![Alt text](images/figma1.png)
+![Basic Figma mock-up](images/figma1.png)
 
 Once I get the admin side of the website set up I will show my Mum what she thinks.
 
@@ -52,9 +52,33 @@ Once I get the admin side of the website set up I will show my Mum what she thin
 I am working on the admin console for the Figma mock-up.
 
 I have completed the interactive figma mock-up:
-![Alt text](images/figma2.png)
+![Completed basic Figma mock-up](images/figma2.png)
 
-I get my Mum to interactively test it out and get feedback from her.
+I will get my Mum to interactively test it out and get feedback from her.
+
+> The general layout was quite intuitive. From this mock website I only have minor critiques:
+>- The 'create booking' text should be a button instead of a text link.
+>- When creating a booking, an Email should be required but a phone number optional.
+>- If the user selects 'No' to the 'Online' section, there needs to be a text box for where they want to meet.
+
+### 2024-05-30
+
+I have made the appropriate changes to cater to my Mum's requests.
+![Modified basic Figma mock-up](images/figma3.png)
+
+Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+
+### DATE HERE
+
+Replace this test with what you are working on
+
+Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+
+### DATE HERE
+
+Replace this test with what you are working on
+
+Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
 
 ### DATE HERE
 
