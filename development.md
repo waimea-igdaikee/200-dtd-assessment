@@ -63,14 +63,17 @@ I will get my Mum to interactively test it out and get feedback from her.
 
 ### 2024-05-30
 
-I have made the appropriate changes to cater to my Mum's requests.
+I have made the appropriate changes to cater to my Mum's above requests.
 ![Modified basic Figma mock-up](images/figma3.png)
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+I sat down with my Mum on Realtime Colours and she decided on the following colour palette and fonts, though she said she will have to see it on the actual website mockup and go from there.
+![Realtime Colours v1](images/realtime1.png)
 
-### DATE HERE
+### 2024-06-10
 
-Replace this test with what you are working on
+I have put the above colours and fonts into the figma website mockup. I will get feedback.
+
+![Alt text](image.png)
 
 Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
 
