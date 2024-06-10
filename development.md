@@ -52,6 +52,7 @@ Once I get the admin side of the website set up I will show my Mum what she thin
 I am working on the admin console for the Figma mock-up.
 
 I have completed the interactive figma mock-up:
+
 ![Completed basic Figma mock-up](images/figma2.png)
 
 I will get my Mum to interactively test it out and get feedback from her.
@@ -64,22 +65,31 @@ I will get my Mum to interactively test it out and get feedback from her.
 ### 2024-05-30
 
 I have made the appropriate changes to cater to my Mum's above requests.
+
 ![Modified basic Figma mock-up](images/figma3.png)
 
 I sat down with my Mum on Realtime Colours and she decided on the following colour palette and fonts, though she said she will have to see it on the actual website mockup and go from there.
+
 ![Realtime Colours v1](images/realtime1.png)
 
 ### 2024-06-10
 
 I have put the above colours and fonts into the figma website mockup. I will get feedback.
 
-![Alt text](image.png)
+![Alt text](images/figma4.png)
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Feedback from my Mum:
+> - The fonts seem right; they are easy to read. 
+> - The yellow is the wrong shade. It needs to be stronger. 
+> - I'd like a flower next to my name at the top.
+> - I'd like to see what it looks like if all the yellow sections had black outlines.
+> - On second thought I don't want a location input box when people go to create a booking.
 
-### DATE HERE
+### 2024-06-11
 
-Replace this test with what you are working on
+I will act on my Mum's feedback, making a separate version for the experimental black outlined version.
+
+It will be important to refer back to the legality implication when choosing my flower photo to ensure I stick within any licenses. For experimental testing purposes, though, I have chosen a free image whose license states that I must attribute the website it came from, www.freepik.com. I will use this image for testing, ensuring I provide attribution, but for the finished product I may design my own image or find another with a royalty free licence.
 
 Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
 
