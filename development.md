@@ -79,7 +79,7 @@ I have put the above colours and fonts into the figma website mockup. I will get
 ![Alt text](images/figma4.png)
 
 Feedback from my Mum:
-> - The fonts seem right; they are easy to read. 
+> - The fonts seem right; they are easy to read.
 > - The yellow is the wrong shade. It needs to be stronger. 
 > - I'd like a flower next to my name at the top.
 > - I'd like to see what it looks like if all the yellow sections had black outlines.
@@ -91,7 +91,17 @@ I will act on my Mum's feedback, making a separate version for the experimental 
 
 It will be important to refer back to the legality implication when choosing my flower photo to ensure I stick within any licenses. For experimental testing purposes, though, I have chosen a free image whose license states that I must attribute the website it came from, www.freepik.com. I will use this image for testing, ensuring I provide attribution, but for the finished product I may design my own image or find another with a royalty free licence.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Below is the updated figma design based on my mum's feedback:
+
+Without lines:
+
+![Alt text](images/figma5.png)
+
+With lines:
+
+![Alt text](images/figma6.png)
+
+I will get feedback on these from my mum.
 
 ### DATE HERE
 
