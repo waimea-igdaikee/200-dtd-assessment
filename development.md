@@ -79,11 +79,11 @@ I have put the above colours and fonts into the figma website mockup. I will get
 ![Alt text](images/figma4.png)
 
 Feedback from my Mum:
-> - The fonts seem right; they are easy to read.
-> - The yellow is the wrong shade. It needs to be stronger. 
-> - I'd like a flower next to my name at the top.
-> - I'd like to see what it looks like if all the yellow sections had black outlines.
-> - On second thought I don't want a location input box when people go to create a booking.
+>- The fonts seem right; they are easy to read.
+>- The yellow is the wrong shade. It needs to be stronger. 
+>- I'd like a flower next to my name at the top.
+>- I'd like to see what it looks like if all the yellow sections had black outlines.
+>- On second thought I don't want a location input box when people go to create a booking.
 
 ### 2024-06-11
 
@@ -101,7 +101,10 @@ With lines:
 
 ![Alt text](images/figma6.png)
 
-I will get feedback on these from my mum.
+Feedback from my Mum:
+>- I want the name of this website to be "Valerie Daikee Life Coach" or "Valerie Daikee Empowerment Life Coach", whichever fits best"
+>- I think there's too much yellow. Maybe yellow could be used as more of an accent colour, with maybe a light shade of grey to differentiate boxes / sections.
+>- I definitely prefer the non-outlined version, but I like how it highlights boxes. Maybe there is a way to get the best of both worlds.
 
 ### DATE HERE
 

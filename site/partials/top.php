@@ -17,17 +17,13 @@ $page = basename($_SERVER['SCRIPT_NAME']);
 
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.yellow.min.css"/>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
         <h1><?= SITE_NAME ?></h1>
-
-        <nav>
-            <a href="index.php"     class="<?= $page=='index.php'     ? 'active' : '' ?>">Home</a>
-        </nav>
     </header>
 
     <main>
