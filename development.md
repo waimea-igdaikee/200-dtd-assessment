@@ -106,9 +106,13 @@ Feedback from my Mum:
 >- I think there's too much yellow. Maybe yellow could be used as more of an accent colour, with maybe a light shade of grey to differentiate boxes / sections.
 >- I definitely prefer the non-outlined version, but I like how it highlights boxes. Maybe there is a way to get the best of both worlds.
 
-### DATE HERE
+The next mockup I give my Mum will be the MVP of a website.
 
-Replace this test with what you are working on
+### 2024-06-20
+
+I have started work on my website:
+![Home page of website](images/index1.png)
+![Create booking webpage](images/booking1.png)
 
 Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
 
