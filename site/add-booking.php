@@ -10,6 +10,8 @@ require 'lib/utils.php';
 
 <?php
 
+echo is_null($_POST['phone']);
+
 $service = $_POST['service'];
 $online = $_POST['online'];
 $name = $_POST['name'];

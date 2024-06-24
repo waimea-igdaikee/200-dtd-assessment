@@ -9,7 +9,7 @@ $serviceid = $_GET['service']; // Error protection needed
     <form method="post" action="add-booking.php">
         <label>Service</label>
         <select name="service" required>
-            <option value="1" <?php if ($serviceid == 'service1') {echo 'selected';} ?> ><?= SERVICE_1 ?></option> <!-- The php if statement echoes 'selected' -->
+            <option value="1" <?php if ($serviceid == 'service1') {echo 'selected';} ?> ><?= SERVICE_1 ?></option>  <!-- The php if statement echoes 'selected' -->
             <option value="2" <?php if ($serviceid == 'service2') {echo 'selected';} ?> ><?= SERVICE_2 ?></option>  <!-- if $serviceid is that service.         -->
             <option value="3" <?php if ($serviceid == 'service3') {echo 'selected';} ?> ><?= SERVICE_3 ?></option>
         </select>
@@ -38,3 +38,5 @@ $serviceid = $_GET['service']; // Error protection needed
         <input type="submit" value="Add">
     </form>
 </article>
+
+<a class="cancel-button" href="index.php"><button>Cancel</button></a>
