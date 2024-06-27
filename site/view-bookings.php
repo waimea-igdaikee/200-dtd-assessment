@@ -6,11 +6,21 @@ require 'lib/utils.php';
 $db = connectToDB();
 
 // Setup query to get company info
-$query = 'SELECT `name`,
+// $query = 'SELECT `name`,
+//                  `date`,
+//                  `service`
+//             from bookings
+//         ORDER BY `date`';
+
+
+
+$query = 'SELECT bookings.name AS `Bname`,
                  `date`,
-                 `service`
-            from bookings
-        ORDER BY `date`';
+                 services.name AS `Sname`,
+                 bookings.id `BID`
+          FROM bookings
+          JOIN services ON bookings.service=services.id
+          ORDER BY `date`';
 
 
 
@@ -56,7 +66,6 @@ catch (PDOException $e)
             <th></th>
         </tr>
 
-
 <?php
 
 foreach($bookings as $booking)
@@ -65,7 +74,7 @@ foreach($bookings as $booking)
     echo '<tr>';
 
     echo    '<td>';
-    echo        substr($booking['name'],0,48);
+    echo        substr($booking['Bname'],0,48);
     echo    '</td>';
 
     echo    '<td>';
@@ -73,8 +82,13 @@ foreach($bookings as $booking)
     echo    '</td>';
 
     echo    '<td>';
-    echo        substr($booking['Bservice'],0,48);
+    echo        substr($booking['Sname'],0,48);
     echo    '</td>';
+
+    echo    '<td>';
+    echo        '<a href="' . 'manage-booking.php?id=' . $booking['BID'] . '"><button> Manage Booking </button</a>';
+    echo    '</td>';
+
     echo '</tr>';
 }
 ?>

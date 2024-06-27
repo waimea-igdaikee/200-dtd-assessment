@@ -2,6 +2,7 @@ header {
     background-color: var(--pico-primary-background);
 }
 
+
 .cancel-button {
     width: 100%; 
     /* This doesn't work but it needs to be full width and a light grey colour */

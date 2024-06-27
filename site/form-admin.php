@@ -4,7 +4,7 @@ require 'lib/utils.php';
 ?>
 
 <article>
-    <h2>Please login to continue</h2>
+    <h2>Please log in to continue</h2>
     <form method="post" action="check-admin.php">
         <label>Username</label>
         <input name="username" required>
@@ -12,7 +12,7 @@ require 'lib/utils.php';
         <label>Password</label>
         <input name="password" type=password required>
 
-        <input type="submit" value="Add">
+        <input type="submit" value="Log in">
     </form>
 </article>
 

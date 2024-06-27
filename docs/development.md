@@ -116,12 +116,33 @@ I have started work on my website:
 
 Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
 
-### DATE HERE
+### 2024-06-27
 
-Replace this test with what you are working on
+I am continuing work on the website.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+I have created an admin login panel. This is suitable for demonstrating the website's functionality to my Mum, but it is a big security concern - I am simply using a form and PHP code to check if the user's credentials are correct. I will have to change this later though, as due to the possibly sensitive data being stored, having the admin panel this easy to breach would be a violation of the Privacy Act, which states that I must ensure that this data is secure.
 
+I have got my database working with the site - creating a booking adds an entry to the bookings table:
+![Website create booking page](images/booking2.png)
+![Adminer view of the data created in the above image](images/booking3.png)
+
+...and you can see these booking on the admin page:
+![Website admin panel view of the data entries](images/booking4.png)
+However it can be seen that it displays the service id number instead of the service name. I will have to use SQL to join these databases together. 
+
+After some clever SQL work:
+```
+$query = 'SELECT bookings.name AS `Bname`,
+                 `date`,
+                 services.name AS `Sname`,
+                 bookings.id `BID`
+          FROM bookings
+          JOIN services ON bookings.service=services.id
+          ORDER BY `date`';
+```
+
+The result is clear.
+![Website admin panel, revised](images/booking5.png)
 ### DATE HERE
 
 Replace this test with what you are working on
