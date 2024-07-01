@@ -143,11 +143,19 @@ $query = 'SELECT bookings.name AS `Bname`,
 
 The result is clear.
 ![Website admin panel, revised](images/booking5.png)
-### DATE HERE
 
-Replace this test with what you are working on
+### 2024-07-02
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+I have made the interface for managing / viewing a specific booking. It isn't fully polished yet; for example it says 0/1 instead of Yes/No for the 'Online' row.
+![Viewing a specific booking's details](images/booking6.png)
+
+
+I have added some extra code in my footer partial that makes the 'Admin Login' button an 'Admin Logout' button if the user is on an admin page of the website.
+![PHP code of login/out button](images/admin1.png)
+
+
+In order to make my website accessible on all devices, I will use media queries to scale the delete / go back buttons.
+
 
 ### DATE HERE
 

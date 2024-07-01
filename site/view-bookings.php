@@ -2,6 +2,7 @@
 require 'partials/top.php';
 require 'lib/utils.php'; 
 
+$isAdmin = 1;
 
 $db = connectToDB();
 

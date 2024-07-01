@@ -23,7 +23,7 @@ $page = basename($_SERVER['SCRIPT_NAME']);
 <body>
 
     <header>
-        <h1><?= SITE_NAME ?></h1>
+        <h1 style="margin-bottom: 5px;"><?= SITE_NAME ?></h1>
     </header>
 
     <main>

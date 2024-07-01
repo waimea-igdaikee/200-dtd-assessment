@@ -2,6 +2,7 @@
 require 'partials/top.php';
 require 'lib/utils.php'; 
 
+$isAdmin = 1;
 
 $db = connectToDB();
 
@@ -15,7 +16,12 @@ $db = connectToDB();
 
 $bookingid = $_GET['id']; // Error protection needed
 
-$query = "SELECT * FROM bookings WHERE id = {$bookingid}";
+$query = "SELECT *,  bookings.name AS `Bname`,
+                 services.name AS `Sname`
+          FROM bookings
+          JOIN services ON bookings.service=services.id
+          WHERE bookings.id = {$bookingid}
+          ORDER BY `date`";
 
 
 
@@ -37,15 +43,76 @@ catch (PDOException $e)
 ?>
 
 <article>
-    <div>
-        <p></p>
-        <p></p>
-    </div>
-</article>
+    <h3>Viewing booking for<b> <?=substr($booking['Bname'],0,48)?> </b></h1>
 
+    <table>
+        <tr>
+            <td>
+                <p>Name:</p>
+            </td>
+            <td>
+                <p><?=substr($booking['Bname'],0,48)?></p>
+            </td>
+        <tr>
 
+        <tr>
+            <td>
+                <p>Date:</p>
+            </td>
+            <td>
+                <p><?=substr($booking['date'],0,48)?></p>
+            </td>
+        </tr>
 
-?>
+        <tr>
+            <td>
+                <p>Service:</p>
+            </td>
+            <td>
+                <p><?=substr($booking['Sname'],0,48)?></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p>Online:</p>
+            </td>
+            <td>
+                <p><?=substr($booking['online'],0,48)?></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p>Phone Number:</p>
+            </td>
+            <td>
+                <p><?=substr($booking['phone'],0,48)?></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p>Email Address:</p>
+            </td>
+            <td>
+                <p><?=substr($booking['email'],0,48)?></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p>Message:</p>
+            </td>
+            <td>
+                <p><?=substr($booking['message'],0,48)?></p>
+            </td>
+        </tr>
+
+    </table>
+
+    <a href="view-bookings.php"><button id="back-button"   >Finish Viewing</button></a> 
+    <a href="delete-booking.php"><button id="delete-button">Delete Booking</button></a>
 </article>
 
 
