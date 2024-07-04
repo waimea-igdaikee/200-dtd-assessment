@@ -2,22 +2,62 @@ header {
     background-color: var(--pico-primary-background);
 }
 
-
-.cancel-button {
-    width: 100%; 
-    /* This doesn't work but it needs to be full width and a light grey colour */
+button {
+    margin-bottom: 5px;
 }
 
 
-footer {
+body {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 205px);
+}
+
+
+.grey-button {
+    margin: auto;
+}
+
+
+.grey-button button {
+    width: 96%;
+    background-color: var(--pico-secondary-focus);
+    border-color: var(--pico-secondary-focus);
+}
+
+
+
+
+#confirm-delete button {
+    width: 100%;
+}
+
 
 #back-button {
-    width: 70%;
+    width: calc(70% - 5px);
 }
 #delete-button {
-    width: 25%;
+    width: calc(30% - 5px);
+}
+
+@media only screen and (max-width: 768px) {
+    #back-button {
+        width: 100%;
+    }
+    #delete-button {
+        width: 100%;
+    }
+  }
+
+
+  footer {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
 }

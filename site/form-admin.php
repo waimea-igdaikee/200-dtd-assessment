@@ -17,3 +17,7 @@ require 'lib/utils.php';
 </article>
 
 <a class="cancel-button" href="index.php"><button>Cancel</button></a>
+
+<?php
+require 'partials/bottom.php';
+?>

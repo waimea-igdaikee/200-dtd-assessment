@@ -6,15 +6,6 @@ $isAdmin = 1;
 
 $db = connectToDB();
 
-// Setup query to get company info
-// $query = 'SELECT `name`,
-//                  `date`,
-//                  `service`
-//             from bookings
-//         ORDER BY `date`';
-
-
-
 $query = 'SELECT bookings.name AS `Bname`,
                  `date`,
                  services.name AS `Sname`,
@@ -28,18 +19,6 @@ $query = 'SELECT bookings.name AS `Bname`,
 $db = connectToDB();
 
 
-// try to run the query
-try
-{
-    $stmt = $db->prepare($query);
-    $stmt->execute();
-    $bookings = $stmt->fetchAll();
-}
-catch (PDOException $e)
-{
-    consoleLog($e->getMessage(), 'DB List Fetch', ERROR);
-    die('There was an error getting data from the database');
-}
 // try to run the query
 try
 {

@@ -39,4 +39,8 @@ $serviceid = $_GET['service']; // Error protection needed
     </form>
 </article>
 
-<a class="cancel-button" href="index.php"><button>Cancel</button></a>
+<a class="grey-button" href="index.php"><button>Cancel</button></a>
+
+<?php
+require 'partials/bottom.php';
+?>

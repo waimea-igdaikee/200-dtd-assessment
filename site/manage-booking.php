@@ -4,8 +4,6 @@ require 'lib/utils.php';
 
 $isAdmin = 1;
 
-$db = connectToDB();
-
 // Setup query to get company info
 // $query = 'SELECT `name`,
 //                  `date`,
@@ -17,7 +15,8 @@ $db = connectToDB();
 $bookingid = $_GET['id']; // Error protection needed
 
 $query = "SELECT *,  bookings.name AS `Bname`,
-                 services.name AS `Sname`
+                 services.name AS `Sname`,
+                 bookings.id AS `BID`
           FROM bookings
           JOIN services ON bookings.service=services.id
           WHERE bookings.id = {$bookingid}
@@ -112,7 +111,7 @@ catch (PDOException $e)
     </table>
 
     <a href="view-bookings.php"><button id="back-button"   >Finish Viewing</button></a> 
-    <a href="delete-booking.php"><button id="delete-button">Delete Booking</button></a>
+    <a href="confirm-delete.php?id=<?= $booking['BID'] ?>"><button id="delete-button">Delete Booking</button></a>
 </article>
 
 
