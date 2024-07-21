@@ -39,6 +39,9 @@ catch (PDOException $e)
     consoleLog($e->getMessage(), 'DB List Fetch', ERROR);
     die('There was an error getting data from the database');
 }
+
+// Ternary operator ensures that if phone == 0 (meaning it was left blank) then it says 'Left blank'
+$phone = ($booking['phone'] == 0) ? 'Left blank' : substr($booking['phone'],0,48);
 ?>
 
 <article>
@@ -86,7 +89,7 @@ catch (PDOException $e)
                 <p>Phone Number:</p>
             </td>
             <td>
-                <p><?=substr($booking['phone'],0,48)?></p>
+                <p><?=$phone?></p>
             </td>
         </tr>
 

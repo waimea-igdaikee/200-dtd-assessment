@@ -21,11 +21,12 @@ main {
 
 .grey-button {
     margin: auto;
+    width: 100%;
 }
 
 
 .grey-button button {
-    width: 96%;
+    width: 100%;
     background-color: var(--pico-secondary-focus);
     border-color: var(--pico-secondary-focus);
 }

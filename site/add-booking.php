@@ -10,15 +10,17 @@ require 'lib/utils.php';
 
 <?php
 
-echo is_null($_POST['phone']);
+echo empty($_POST['phone']);
 
+
+// Ternary operators for optional fields 
 $service = $_POST['service'];
 $online = $_POST['online'];
 $name = $_POST['name'];
 $email = $_POST['email'];
-$phone = $_POST['phone'];
+$phone = empty($_POST['phone']) == 1 ? '0' : $_POST['phone'];
 $date = $_POST['date'];
-$message = $_POST['message'];
+$message = empty($_POST['message']) == 1 ? 'Left Blank' : $_POST['message'];
 
 $db = connectToDB();
 
@@ -40,7 +42,6 @@ catch (PDOException $e)
 echo '<h3>Success! Your booking has been created.</h3>';
 
 header("location: index.php");
-
 ?>
 
 
