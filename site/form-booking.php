@@ -35,11 +35,12 @@ $serviceid = $_GET['service']; // Error protection needed
         <label>Message (Optional)</label>
         <textarea name="message" rows="4" cols="50"></textarea>
 
-        <input type="submit" value="Add">
+        <div class=horiz-button-container>
+            <a class="grey-button" href="index.php"><button>Cancel</button></a>
+            <input type="submit" value="Add">
+        </div>
     </form>
 </article>
-
-<a class="grey-button" href="index.php"><button>Cancel</button></a>
 
 <?php
 require 'partials/bottom.php';

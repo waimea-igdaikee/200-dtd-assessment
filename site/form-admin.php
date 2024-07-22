@@ -12,11 +12,12 @@ require 'lib/utils.php';
         <label>Password</label>
         <input name="password" type=password required>
 
-        <input type="submit" value="Log in">
+        <div class=horiz-button-container>
+            <a class="grey-button" href="index.php"><button>Cancel</button></a>
+            <input type="submit" value="Log in">
+        </div>
     </form>
 </article>
-
-<a class="cancel-button" href="index.php"><button>Cancel</button></a>
 
 <?php
 require 'partials/bottom.php';

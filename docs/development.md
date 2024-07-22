@@ -157,6 +157,51 @@ I have added some extra code in my footer partial that makes the 'Admin Login' b
 In order to make my website accessible on all devices, I will use media queries to scale the delete / go back buttons.
 
 
+### 2024-07-23
+
+I'm at the stage where I can show my mum, and perhaps some members of the public my website. I'm currently polishing the design up, for example having the cancel button for various actions be grey and next to the continue / go button, which lines up with established design conventions, contributing toward the aesthetics and usability relevant implications.
+
+![Grey cancel button next to yellow continue button](images/greybutton.png)
+
+I have also made it so the fields my mum said could be left blank are actually optional, and won't break the database:
+![Phone number field: "Left Blank"](images/leftblank.png)
+
+### DATE HERE
+
+Replace this test with what you are working on
+
+Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+
+### DATE HERE
+
+Replace this test with what you are working on
+
+Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+
+### DATE HERE
+
+Replace this test with what you are working on
+
+Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+
+### DATE HERE
+
+Replace this test with what you are working on
+
+Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+
+### DATE HERE
+
+Replace this test with what you are working on
+
+Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+
+### DATE HERE
+
+Replace this test with what you are working on
+
+Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+
 ### DATE HERE
 
 Replace this test with what you are working on

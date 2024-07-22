@@ -26,9 +26,10 @@ catch (PDOException $e)
 
 <article id=confirm-delete>
     <h3>Are you sure you want to delete this booking for <b><?= $name['name'] ?></b>?</h3>
-
-    <a href="manage-booking.php?id=<?= $bookingid ?>"><button>Cancel</button></a>
-    <a href="delete-booking.php?id=<?= $bookingid ?>"><button>Confirm Deletion</button></a>
+    <div class=horiz-button-container>
+        <a class="grey-button" href="manage-booking.php?id=<?= $bookingid ?>"><button >Cancel</button></a>
+        <a style="width: 100%;" href="delete-booking.php?id=<?= $bookingid ?>"><button style="width: 100%;">Confirm Deletion</button></a>
+    </div>
 </article>
 
 

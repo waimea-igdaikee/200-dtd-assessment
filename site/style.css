@@ -20,8 +20,8 @@ main {
 
 
 .grey-button {
-    margin: auto;
-    width: 100%;
+    margin: 0;
+    width: 33%;
 }
 
 
@@ -31,12 +31,10 @@ main {
     border-color: var(--pico-secondary-focus);
 }
 
-
-
-
-#confirm-delete button {
-    width: 100%;
+.horiz-button-container {
+    display: flex;
 }
+
 
 
 #back-button {
@@ -44,6 +42,11 @@ main {
 }
 #delete-button {
     width: calc(30% - 5px);
+    background-color: #b31d1d;
+    border-color: #700d0d;
+}
+#delete-button:hover {
+    background-color: #700d0d;
 }
 
 @media only screen and (max-width: 768px) {
