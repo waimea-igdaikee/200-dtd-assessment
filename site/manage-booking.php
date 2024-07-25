@@ -113,8 +113,8 @@ $phone = ($booking['phone'] == 0) ? 'Left blank' : substr($booking['phone'],0,48
 
     </table>
 
-    <a href="view-bookings.php"><button id="back-button"   >Finish Viewing</button></a> 
-    <a href="confirm-delete.php?id=<?= $booking['BID'] ?>"><button id="delete-button">Delete Booking</button></a>
+    <a class="big-button" href="view-bookings.php"><button id="back-button">Finish Viewing</button></a> 
+    <a class="small-button" href="confirm-delete.php?id=<?= $booking['BID'] ?>"><button id="delete-button">Delete Booking</button></a>
 </article>
 
 

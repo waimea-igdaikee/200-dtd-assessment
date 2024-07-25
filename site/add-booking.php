@@ -6,7 +6,7 @@ require 'lib/utils.php';
 ?>
 
 
-<h3>Working...</h3>
+<p>Working...</p>
 
 <?php
 

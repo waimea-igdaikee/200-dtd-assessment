@@ -1,5 +1,6 @@
 header {
     background-color: var(--pico-primary-background);
+    max-width: 100%;
 }
 
 button {
@@ -16,17 +17,17 @@ main {
     display: flex;
     flex-direction: column;
     min-height: calc(100vh - 205px);
+    max-width: 800px;
 }
 
 
 .grey-button {
     margin: 0;
-    width: 33%;
+    margin-right: 3px;
 }
 
 
 .grey-button button {
-    width: 100%;
     background-color: var(--pico-secondary-focus);
     border-color: var(--pico-secondary-focus);
 }
@@ -35,28 +36,32 @@ main {
     display: flex;
 }
 
-
-
-#back-button {
+.big-button button , input.big-button {
     width: calc(70% - 5px);
 }
-#delete-button {
+.small-button button  {
     width: calc(30% - 5px);
-    background-color: #b31d1d;
-    border-color: #700d0d;
-}
-#delete-button:hover {
-    background-color: #700d0d;
 }
 
 @media only screen and (max-width: 768px) {
-    #back-button {
+    .big-button button , input.big-button {
         width: 100%;
     }
-    #delete-button {
+    .small-button button {
         width: 100%;
     }
-  }
+}
+
+
+#delete-button {
+    color: white;
+    background-color:#d13232;
+    border-color: #b30505;
+}
+#delete-button:hover {
+    background-color: #c70000;
+}
+
 
 
   footer {

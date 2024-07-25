@@ -35,7 +35,8 @@ catch (PDOException $e)
 
 echo '<h3>Success! Your booking has been deleted.</h3>';
 
-header("location: index.php");
+
+header("location: view-bookings.php");
 
 ?>
 

@@ -15,7 +15,7 @@ $serviceid = $_GET['service']; // Error protection needed
         </select>
 
         <label>Location</label>
-        <input type="radio" id="online" name="online" value=1>
+        <input type="radio" id="online" name="online" value=1 required>
         <label for="online">Online</label>
         <input type="radio" id="in_person" name="online" value=0>
         <label for="in_person">In person</label><br><br>
@@ -27,7 +27,7 @@ $serviceid = $_GET['service']; // Error protection needed
         <input name="email" type="email" required>
 
         <label>Phone number (Optional)</label>
-        <input name="phone" type="tel">
+        <input name="phone" type="number">
 
         <label>Date</label>
         <input name="date" type="date" required>
@@ -35,9 +35,8 @@ $serviceid = $_GET['service']; // Error protection needed
         <label>Message (Optional)</label>
         <textarea name="message" rows="4" cols="50"></textarea>
 
-        <div class=horiz-button-container>
-            <a class="grey-button" href="index.php"><button>Cancel</button></a>
-            <input type="submit" value="Add">
+            <a class="grey-button small-button" href="index.php"><button type='button'>Cancel</button></a>
+            <input class = "big-button" type="submit" value="Add">
         </div>
     </form>
 </article>

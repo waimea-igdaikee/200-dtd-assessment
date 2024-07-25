@@ -166,18 +166,38 @@ I'm at the stage where I can show my mum, and perhaps some members of the public
 I have also made it so the fields my mum said could be left blank are actually optional, and won't break the database:
 ![Phone number field: "Left Blank"](images/leftblank.png)
 
-### DATE HERE
+### 2024-07-25
 
-Replace this test with what you are working on
+I have made some more aesthetic changes to increase the usability of the website:
+- Everywhere the user is presented with a choice (i.e. two buttons), I have made the buttons be in line with each other.
+- Important actions with consequences (e.g. deleting a booking) have been made red to highlight the possible danger of said action (in my Mum's case, losing money because a booking got cancelled.) This is an application of the "Error Prevention" usability heuristics - it prevents users from making mistakes, as well as the "Match Between System and the Real World" heuristic - red is a colour associated with danger.
+- Important actions with consequences also have a conformation page to prevent my Mum's accidental mis-clicks from costing her business money - a prime example of the Error Prevention heuristic
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+![Delete Booking Confirmation](images/confirmDelete.png)
 
-### DATE HERE
+My next stage will be getting feedback from my mum.
 
-Replace this test with what you are working on
+### 27/07/2024 HERE
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+I showed my Mum the website. She had a fair bit of feedback for me:
 
+- I would prefer if the circular buttons (radio buttons) were square like the buttons below (the square cancel / add buttons)
+- If I get the admin password wrong it should tell be instead of sending me back
+- When viewing a booking I want it to say "In Person" or "Online", not "Online: 0" or "Online: 1"
+- I'd like to see what it would look like if bookings that have already happened were a different colour
+- That horrible yellow bar at the top needs to go across the entire screen, and that bold font at the top doesn't look nice.
+- Where is my flower logo?
+
+
+FEEDBACK : NOT RADIO BUTTONS BUT SELECTY BUTTONS
+IF THE PASSWORD IS WRONG IT SHOULD TELL ME
+
+ONLINE OR NOIT SHOULD SAY  YES OR NO BUT NOT 0 OR 1
+WHAT IF THERE'S NO BOOKINGS!!!
+DIFFERENT COLOUR IF THEY'VE ALRRADY HAPPENED
+SORTING BY X Y Z
+CONFORMATION WHEN I DO SOMETINH!
+MY LOGO ? !?? !? 
 ### DATE HERE
 
 Replace this test with what you are working on

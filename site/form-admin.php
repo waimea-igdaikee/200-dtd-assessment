@@ -12,10 +12,8 @@ require 'lib/utils.php';
         <label>Password</label>
         <input name="password" type=password required>
 
-        <div class=horiz-button-container>
-            <a class="grey-button" href="index.php"><button>Cancel</button></a>
-            <input type="submit" value="Log in">
-        </div>
+            <a class="grey-button small-button" href="index.php"><button type='button'>Cancel</button></a>
+            <input class="big-button" type="submit" value="Log in">
     </form>
 </article>
 
