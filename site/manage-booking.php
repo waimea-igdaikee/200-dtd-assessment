@@ -41,7 +41,9 @@ catch (PDOException $e)
 }
 
 // Ternary operator ensures that if phone == 0 (meaning it was left blank) then it says 'Left blank'
+
 $phone = ($booking['phone'] == 0) ? 'Left blank' : substr($booking['phone'],0,48);
+$location = ($booking['online'] == 1) ? 'Online' : 'In Person'
 ?>
 
 <article>
@@ -77,10 +79,10 @@ $phone = ($booking['phone'] == 0) ? 'Left blank' : substr($booking['phone'],0,48
 
         <tr>
             <td>
-                <p>Online:</p>
+                <p>Location:</p>
             </td>
             <td>
-                <p><?=substr($booking['online'],0,48)?></p>
+                <p><?=$location?></p>
             </td>
         </tr>
 

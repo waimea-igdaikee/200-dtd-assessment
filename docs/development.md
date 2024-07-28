@@ -177,19 +177,18 @@ I have made some more aesthetic changes to increase the usability of the website
 
 My next stage will be getting feedback from my mum.
 
-### 27/07/2024 HERE
+### 2024-07-28
 
 I showed my Mum the website. She had a fair bit of feedback for me:
 
-- I would prefer if the circular buttons (radio buttons) were square like the buttons below (the square cancel / add buttons)
-- If I get the admin password wrong it should tell be instead of sending me back
-- When viewing a booking I want it to say "In Person" or "Online", not "Online: 0" or "Online: 1"
-- I'd like to see what it would look like if bookings that have already happened were a different colour
-- That horrible yellow bar at the top needs to go across the entire screen, and that bold font at the top doesn't look nice.
-- Where is my flower logo?
+- [x] If I get the admin password wrong it should tell be instead of sending me back
+- [x] When viewing a booking I want it to say "In Person" or "Online", not "Online: 0" or "Online: 1"
+- [] I'd like bookings to be deleted once they pass their date
+- [] That horrible yellow bar at the top needs to go across the entire screen, and that bold font at the top doesn't look nice.
+- [] Where is my flower logo?
 
 
-FEEDBACK : NOT RADIO BUTTONS BUT SELECTY BUTTONS
+<!-- FEEDBACK : NOT RADIO BUTTONS BUT SELECTY BUTTONS
 IF THE PASSWORD IS WRONG IT SHOULD TELL ME
 
 ONLINE OR NOIT SHOULD SAY  YES OR NO BUT NOT 0 OR 1
@@ -197,12 +196,11 @@ WHAT IF THERE'S NO BOOKINGS!!!
 DIFFERENT COLOUR IF THEY'VE ALRRADY HAPPENED
 SORTING BY X Y Z
 CONFORMATION WHEN I DO SOMETINH!
-MY LOGO ? !?? !? 
-### DATE HERE
+MY LOGO ? !?? !?  -->
+<!-- - [] I would prefer if the circular buttons (radio buttons) were square like the buttons below (the square cancel / add buttons) -->
+### 2024-07-29
 
-Replace this test with what you are working on
-
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+I have been acting on my Mum's feedback, adding what she said would be good.
 
 ### DATE HERE
 

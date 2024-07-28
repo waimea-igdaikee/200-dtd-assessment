@@ -17,7 +17,8 @@ $password = $_POST['password'];
 if ($username == "admin" && $password == "hunter123") {
     header("location: view-bookings.php"); 
 } else {
-    header("location: index.php");
+    echo 'Wrong password :(';
+    header("location: form-admin.php?wrong=1");
 }
 
 ?>
