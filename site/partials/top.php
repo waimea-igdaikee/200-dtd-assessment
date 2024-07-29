@@ -1,11 +1,10 @@
-<?php require_once '_config.php'; ?>
+<?php 
 
-<?php
+require_once '_config.php';
 
 $page = basename($_SERVER['SCRIPT_NAME']);
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 

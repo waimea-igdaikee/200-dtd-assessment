@@ -184,8 +184,10 @@ I showed my Mum the website. She had a fair bit of feedback for me:
 - [x] If I get the admin password wrong it should tell be instead of sending me back
 - [x] When viewing a booking I want it to say "In Person" or "Online", not "Online: 0" or "Online: 1"
 - [] I'd like bookings to be deleted once they pass their date
-- [] That horrible yellow bar at the top needs to go across the entire screen, and that bold font at the top doesn't look nice.
-- [] Where is my flower logo?
+- [] That horrible yellow bar at the top needs to go across the entire screen
+- [x] Replace the yellow with that colour I chose (#f6ec85)
+
+I also asked her if she wanted to be able to sort booking by anything other than date. She said no. I may still add a thing that lets her reverse the sort order as I know she will probably use that.
 
 
 <!-- FEEDBACK : NOT RADIO BUTTONS BUT SELECTY BUTTONS
@@ -195,12 +197,41 @@ ONLINE OR NOIT SHOULD SAY  YES OR NO BUT NOT 0 OR 1
 WHAT IF THERE'S NO BOOKINGS!!!
 DIFFERENT COLOUR IF THEY'VE ALRRADY HAPPENED
 SORTING BY X Y Z
-CONFORMATION WHEN I DO SOMETINH!
+CONFORMATION WHEN I DO SOMETINH! OR WHEN USE DOES A CREATE A BOOKNG
 MY LOGO ? !?? !?  -->
 <!-- - [] I would prefer if the circular buttons (radio buttons) were square like the buttons below (the square cancel / add buttons) -->
 ### 2024-07-29
 
 I have been acting on my Mum's feedback, adding what she said would be good.
+
+I have also been making the text on the website far easier to update - for example when my Mum wants to change the name of a service, she can simply change it (or get me to change it...) in the database. This is due to my use of php definitions:
+```html
+<article>
+    <h3><?= SERVICE_1 ?></h3>
+    <p><?= SERVICE_1_DESCRIPTION ?></p>
+    <a href="form-booking.php?service=service1"><button>Create Booking</button></a>
+</article>
+<article>
+<h3><?= SERVICE_2 ?></h3>
+    <p><?= SERVICE_2_DESCRIPTION ?></p>
+    <a href="form-booking.php?service=service2"><button>Create Booking</button></a>
+</article>
+<article>
+    <h3><?= SERVICE_3 ?></h3>
+    <p><?= SERVICE_3_DESCRIPTION ?></p>
+    <a href="form-booking.php?service=service3"><button>Create Booking</button></a>
+</article>
+```
+
+```php
+define('SERVICE_1', $services[0]['name']);
+define('SERVICE_2', $services[1]['name']);
+define('SERVICE_3', $services[2]['name']);
+
+define('SERVICE_1_DESCRIPTION', $services[0]['description']);
+define('SERVICE_2_DESCRIPTION', $services[1]['description']);
+define('SERVICE_3_DESCRIPTION', $services[2]['description']);
+```
 
 ### DATE HERE
 

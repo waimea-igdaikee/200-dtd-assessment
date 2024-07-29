@@ -1,6 +1,5 @@
 header {
     background-color: var(--pico-primary-background);
-    max-width: 100%;
 }
 
 button {
@@ -11,13 +10,15 @@ button {
 body {
     display: flex;
     flex-direction: column;
+    --pico-primary-background: #f6ec85;
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
 }
 
 main {
     display: flex;
     flex-direction: column;
     min-height: calc(100vh - 205px);
-    max-width: 800px;
 }
 
 

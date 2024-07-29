@@ -1,44 +1,23 @@
 <?php
-require 'partials/top.php';
-require 'lib/utils.php'; 
-
-$query = 'SELECT `description` FROM services';
-
-
-$db = connectToDB();
-// try to run the query
-try
-{
-    $stmt = $db->prepare($query);
-    $stmt->execute();
-    $descriptions = $stmt->fetchAll();
-}
-catch (PDOException $e)
-{
-    consoleLog($e->getMessage(), 'DB List Fetch', ERROR);
-    die('There was an error getting service data from the database');
-}
-
-
+require_once 'partials/top.php';
 ?>
-
-<p>Welcome to <?= SITE_NAME ?>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis mauris vitae dolor luctus placerat. Ut pulvinar sapien in eros ullamcorper, eu pulvinar magna porta. Sed nec magna neque. Ut ac pretium odio, vitae facilisis tortor. Morbi placerat at ligula consectetur pharetra. Etiam eu fringilla lorem. Aenean volutpat purus a sem venenatis pharetra. Sed purus enim, molestie vitae quam ut, sodales bibendum nulla.</p>
+<p>Welcome to <?= SITE_NAME ?>. My passion is empowering others to live life to its full potential. I will help you challenge yourself to discover what you really want to achieve in your life and career. I will show you how to develop your potential by accessing your inner power to create confidence and transformation with your thoughts and beliefs to begin living a more fulfilling and purposeful life.</p>
 
 <p>Below are the services I offer:</p>
 
 <article>
     <h3><?= SERVICE_1 ?></h3>
-    <p><?= $descriptions[0]['description'] ?></p>
+    <p><?= SERVICE_1_DESCRIPTION ?></p>
     <a href="form-booking.php?service=service1"><button>Create Booking</button></a>
 </article>
 <article>
-    <h3><?= SERVICE_2 ?></h3>
-    <p><?= $descriptions[1]['description'] ?></p>
+<h3><?= SERVICE_2 ?></h3>
+    <p><?= SERVICE_2_DESCRIPTION ?></p>
     <a href="form-booking.php?service=service2"><button>Create Booking</button></a>
 </article>
 <article>
     <h3><?= SERVICE_3 ?></h3>
-    <p><?= $descriptions[2]['description'] ?></p>
+    <p><?= SERVICE_3_DESCRIPTION ?></p>
     <a href="form-booking.php?service=service3"><button>Create Booking</button></a>
 </article>
 

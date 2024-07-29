@@ -1,10 +1,9 @@
 <?php
-require 'partials/top.php';
-require 'lib/utils.php'; 
-$wrongLogin = $_GET['wrong'];
+require_once 'partials/top.php';
+
+$wrongLogin = empty($_GET['wrong']) ? 0 : $_GET['wrong'];
+
 ?>
-
-
 <article>
     <h2>Please log in to continue</h2>
     <form method="post" action="check-admin.php">

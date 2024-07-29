@@ -1,6 +1,5 @@
 <?php
-require 'partials/top.php';
-require 'lib/utils.php'; 
+require_once 'partials/top.php';
 
 $serviceid = $_GET['service']; // Error protection needed
 
