@@ -184,22 +184,20 @@ I showed my Mum the website. She had a fair bit of feedback for me:
 - [x] If I get the admin password wrong it should tell be instead of sending me back
 - [x] When viewing a booking I want it to say "In Person" or "Online", not "Online: 0" or "Online: 1"
 - [] I'd like bookings to be deleted once they pass their date
-- [] That horrible yellow bar at the top needs to go across the entire screen
+- [x] That horrible yellow bar at the top needs to go across the entire screen
 - [x] Replace the yellow with that colour I chose (#f6ec85)
 
 I also asked her if she wanted to be able to sort booking by anything other than date. She said no. I may still add a thing that lets her reverse the sort order as I know she will probably use that.
 
 
 <!-- FEEDBACK : NOT RADIO BUTTONS BUT SELECTY BUTTONS
-IF THE PASSWORD IS WRONG IT SHOULD TELL ME
 
 ONLINE OR NOIT SHOULD SAY  YES OR NO BUT NOT 0 OR 1
 WHAT IF THERE'S NO BOOKINGS!!!
 DIFFERENT COLOUR IF THEY'VE ALRRADY HAPPENED
 SORTING BY X Y Z
-CONFORMATION WHEN I DO SOMETINH! OR WHEN USE DOES A CREATE A BOOKNG
-MY LOGO ? !?? !?  -->
-<!-- - [] I would prefer if the circular buttons (radio buttons) were square like the buttons below (the square cancel / add buttons) -->
+CONFORMATION WHEN I DO SOMETINH! OR WHEN USE DOES A CREATE A BOOKNG -->
+
 ### 2024-07-29
 
 I have been acting on my Mum's feedback, adding what she said would be good.
@@ -233,11 +231,12 @@ define('SERVICE_2_DESCRIPTION', $services[1]['description']);
 define('SERVICE_3_DESCRIPTION', $services[2]['description']);
 ```
 
-### DATE HERE
+### 2024-08-01
 
-Replace this test with what you are working on
-
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+I showed my Mum the changes I made based on her feedback. She is very happy with how the website is progressing, and she had some more changes to me made:
+- [] I would prefer if the circular buttons (radio buttons) were square like the buttons below (the square cancel / add buttons)
+- [] I would like a frangipani flower as my logo
+- []
 
 ### DATE HERE
 

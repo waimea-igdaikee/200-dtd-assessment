@@ -22,10 +22,10 @@ $page = basename($_SERVER['SCRIPT_NAME']);
 <body>
 
     <header>
-        <h1 style="margin-bottom: 5px;"><?= SITE_NAME ?></h1>
+        <!-- Yellow background -->
     </header>
 
     <main>
-
+        <h1 style="margin-bottom: 1.6rem;"><?= SITE_NAME ?></h1>
 
 

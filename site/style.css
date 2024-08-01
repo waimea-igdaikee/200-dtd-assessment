@@ -1,5 +1,11 @@
 header {
     background-color: var(--pico-primary-background);
+    max-width: 100% !important;
+    display: flex;
+    padding-left: 100px !important;
+    position: absolute;
+    height: 4.4rem;
+    z-index: -20;
 }
 
 button {
@@ -8,17 +14,20 @@ button {
 
 
 body {
-    display: flex;
-    flex-direction: column;
     --pico-primary-background: #f6ec85;
-    max-width: 1200px;
-    margin: 0 auto 0 auto;
 }
 
 main {
+    min-height: calc(100vh - 205px);
     display: flex;
     flex-direction: column;
-    min-height: calc(100vh - 205px);
+    margin: 0 auto 0 auto;
+}
+
+@media (min-width: 1280px) {
+    main, footer {
+        max-width: 1200px !important;
+    }
 }
 
 
