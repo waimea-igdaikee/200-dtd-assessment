@@ -8,10 +8,13 @@ header {
     z-index: -20;
 }
 
+
+
 @media (max-width: 420px) {
     #title {
         font-size: 7vw;
     }
+    header {height: calc(17vw);}
 }
 
 button {
@@ -83,13 +86,12 @@ main {
 #radio-div label {
     margin: 5px 5px 5px 0;
     padding: 0.9rem;
-    background-color: var(--pico-secondary-focus);
+    background-color: var(--pico-muted-border-color);
     border-radius: 5px;
-    border: aliceblue !important;
 }
 
 #radio-div label:hover {
-    background-color: var(--pico-secondary-underline);
+    background-color: var(--pico-secondary-focus);
 }
 
 #radio-div label input:checked + main .radio-div label{
