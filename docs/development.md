@@ -234,7 +234,7 @@ define('SERVICE_3_DESCRIPTION', $services[2]['description']);
 ### 2024-08-01
 
 I showed my Mum the changes I made based on her feedback. She is very happy with how the website is progressing, and she had some more changes to me made:
-- [] I would prefer if the circular buttons (radio buttons) were square like the buttons below (the square cancel / add buttons)
+- [x] I would prefer if the circular buttons (radio buttons) were square like the buttons below (the square cancel / add buttons)
 - [] I would like a frangipani flower as my logo
 - []
 
@@ -255,3 +255,5 @@ Replace this text with brief notes describing what you worked on, any decisions 
 Replace this test with what you are working on
 
 Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+
+// Phone number set to text not int; access

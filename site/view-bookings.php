@@ -31,11 +31,7 @@ catch (PDOException $e)
     die('There was an error getting data from the database');
 }
 
-
-
-
 ?>
-
 <article>
     <table>
         <tr>

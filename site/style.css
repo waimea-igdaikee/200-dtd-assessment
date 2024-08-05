@@ -8,6 +8,12 @@ header {
     z-index: -20;
 }
 
+@media (max-width: 420px) {
+    #title {
+        font-size: 7vw;
+    }
+}
+
 button {
     margin-bottom: 5px;
 }
@@ -30,7 +36,6 @@ main {
     }
 }
 
-
 .grey-button {
     margin: 0;
     margin-right: 3px;
@@ -40,6 +45,10 @@ main {
 .grey-button button {
     background-color: var(--pico-secondary-focus);
     border-color: var(--pico-secondary-focus);
+}
+
+.grey-button button:hover {
+    background-color: var(--pico-secondary-underline);
 }
 
 .horiz-button-container {
@@ -62,6 +71,29 @@ main {
     }
 }
 
+.selected { /* Form radio button colour changing*/
+    background-color: var(--pico-primary-background) !important;
+}
+
+#radio-div {
+    display: flex;
+    flex-direction: row;
+}
+
+#radio-div label {
+    margin: 5px 5px 5px 0;
+    padding: 0.9rem;
+    background-color: var(--pico-secondary-focus);
+    border-radius: 5px;
+}
+
+#radio-div label:hover {
+    background-color: var(--pico-secondary-underline);
+}
+
+#radio-div label input:checked + main .radio-div label{
+    background-color: var(--pico-primary-background);
+}
 
 #delete-button {
     color: white;
@@ -72,9 +104,7 @@ main {
     background-color: #c70000;
 }
 
-
-
-  footer {
+footer {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
