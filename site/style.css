@@ -63,7 +63,7 @@ main {
 }
 
 @media only screen and (max-width: 768px) {
-    .big-button button , input.big-button {
+    .big-button button, input.big-button {
         width: 100%;
     }
     .small-button button {
@@ -85,6 +85,7 @@ main {
     padding: 0.9rem;
     background-color: var(--pico-secondary-focus);
     border-radius: 5px;
+    border: aliceblue !important;
 }
 
 #radio-div label:hover {

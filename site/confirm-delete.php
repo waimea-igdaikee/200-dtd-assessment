@@ -24,7 +24,7 @@ catch (PDOException $e)
 ?>
 
 <article id=confirm-delete>
-    <h3>Are you sure you want to delete this booking for <b><?= $name['name'] ?></b>?</h3>
+    <h3>Are you sure you want to delete this booking for <b><?= $name['name'] ?></b>?<br>This will <b>permanantly</b> delete this booking!</h3>
         <a class="grey-button small-button" href="manage-booking.php?id=<?= $bookingid ?>"><button>Cancel</button></a>
         <a class="big-button" href="delete-booking.php?id=<?= $bookingid ?>"><button id="delete-button">Confirm Deletion</button></a>
 </article>
