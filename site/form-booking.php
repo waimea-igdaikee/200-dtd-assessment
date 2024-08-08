@@ -8,6 +8,7 @@ $serviceid = $_GET['service']; // Error protection needed
     <form method="post" action="add-booking.php">
         <label>Service</label>
         <select name="service" required>
+            <option value="">Select a service:</option>
             <option value="1" <?php if ($serviceid == 'service1') {echo 'selected';} ?> ><?= SERVICE_1 ?></option>  <!-- The php if statement echoes 'selected' -->
             <option value="2" <?php if ($serviceid == 'service2') {echo 'selected';} ?> ><?= SERVICE_2 ?></option>  <!-- if $serviceid is that service.         -->
             <option value="3" <?php if ($serviceid == 'service3') {echo 'selected';} ?> ><?= SERVICE_3 ?></option>
@@ -38,12 +39,12 @@ $serviceid = $_GET['service']; // Error protection needed
 
         <label>Message (Optional)</label>
         <textarea name="message" rows="4" cols="50"></textarea>
-            <a class="grey-button small-button" href="index.php"><button type='button'>Cancel</button></a>
-            <input class = "big-button" type="submit" value="Add">
-        </div>
+            <a role="button" class="grey-button small-button" href="index.php">Cancel</a>
+            <input class="big-button" type="submit" value="Add">
     </form>
 </article>
 
+<!-- Adds a class to change the background colour of the currently selected radio button -->
 <script>
     const radioButtons = document.querySelectorAll('input[name="online"]');
     radioButtons.forEach(radio => {

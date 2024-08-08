@@ -61,7 +61,7 @@ foreach($bookings as $booking)
     echo    '</td>';
 
     echo    '<td>';
-    echo        '<a href="' . 'manage-booking.php?id=' . $booking['BID'] . '"><button> Manage Booking </button</a>';
+    echo        '<a role="button" href="' . 'manage-booking.php?id=' . $booking['BID'] . '">Manage Booking</a>';
     echo    '</td>';
 
     echo '</tr>';

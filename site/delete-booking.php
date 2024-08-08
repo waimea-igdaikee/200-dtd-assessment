@@ -15,7 +15,7 @@ $bookingid = $_GET['id']; // Error protection needed
 
 $db = connectToDB();
 
-// Setup query to get company info
+// Setup query to delete booking
 $query = "DELETE FROM bookings WHERE id={$bookingid}";
 
 echo $query;

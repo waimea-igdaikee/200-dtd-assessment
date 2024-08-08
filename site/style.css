@@ -45,37 +45,40 @@ main {
 }
 
 
-.grey-button button {
-    background-color: var(--pico-secondary-focus);
+.grey-button {
+    background-color: var(--pico-muted-border-color);
     border-color: var(--pico-secondary-focus);
 }
 
-.grey-button button:hover {
-    background-color: var(--pico-secondary-underline);
+.grey-button:hover {
+    background-color: var(--pico-secondary-focus);;
 }
 
 .horiz-button-container {
     display: flex;
 }
 
-.big-button button , input.big-button {
+.big-button , input.big-button {
     width: calc(70% - 5px);
 }
-.small-button button  {
+.small-button {
     width: calc(30% - 5px);
 }
 
 @media only screen and (max-width: 768px) {
-    .big-button button, input.big-button {
+    .big-button, input.big-button {
         width: 100%;
+        margin-bottom: 5px;
     }
-    .small-button button {
+    .small-button {
         width: 100%;
+        margin-bottom: 5px;
     }
 }
 
 .selected { /* Form radio button colour changing*/
     background-color: var(--pico-primary-background) !important;
+    border-color: var(--pico-primary-border) !important;
 }
 
 #radio-div {
@@ -87,6 +90,7 @@ main {
     margin: 5px 5px 5px 0;
     padding: 0.9rem;
     background-color: var(--pico-muted-border-color);
+    border: 1px solid var(--pico-range-active-border-color);
     border-radius: 5px;
 }
 

@@ -5,20 +5,21 @@ require_once 'partials/top.php';
 
 <p>Below are the services I offer:</p>
 
+<!-- Uses constants  -->
 <article>
     <h3><?= SERVICE_1 ?></h3>
     <p><?= SERVICE_1_DESCRIPTION ?></p>
-    <a href="form-booking.php?service=service1"><button>Create Booking</button></a>
+    <a role="button" href="form-booking.php?service=service1">Create Booking</a>
 </article>
 <article>
 <h3><?= SERVICE_2 ?></h3>
     <p><?= SERVICE_2_DESCRIPTION ?></p>
-    <a href="form-booking.php?service=service2"><button>Create Booking</button></a>
+    <a role="button" href="form-booking.php?service=service2">Create Booking</a>
 </article>
 <article>
     <h3><?= SERVICE_3 ?></h3>
     <p><?= SERVICE_3_DESCRIPTION ?></p>
-    <a href="form-booking.php?service=service3"><button>Create Booking</button></a>
+    <a role="button" href="form-booking.php?service=service3">Create Booking</a>
 </article>
 
 <?php

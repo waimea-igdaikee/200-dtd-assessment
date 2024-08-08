@@ -3,15 +3,7 @@ require_once 'partials/top.php';
 
 $isAdmin = 1;
 
-// Setup query to get company info
-// $query = 'SELECT `name`,
-//                  `date`,
-//                  `service`
-//             from bookings
-//         ORDER BY `date`';
-
-
-$bookingid = $_GET['id']; // Error protection needed
+$bookingid = $_GET['id'];
 
 $query = "SELECT *,  bookings.name AS `Bname`,
                  services.name AS `Sname`,
@@ -46,7 +38,7 @@ $location = ($booking['online'] == 1) ? 'Online' : 'In Person'
 ?>
 
 <article>
-    <h3>Viewing booking for<b> <?=substr($booking['Bname'],0,48)?> </b></h1>
+    <h3>Viewing booking for<b> <?=substr($booking['Bname'],0,48)?> </b></h3>
 
     <table>
         <tr>
@@ -56,7 +48,7 @@ $location = ($booking['online'] == 1) ? 'Online' : 'In Person'
             <td>
                 <p><?=substr($booking['Bname'],0,48)?></p>
             </td>
-        <tr>
+        </tr>
 
         <tr>
             <td>
@@ -114,11 +106,9 @@ $location = ($booking['online'] == 1) ? 'Online' : 'In Person'
 
     </table>
 
-    <a class="big-button" href="view-bookings.php"><button id="back-button">Finish Viewing</button></a> 
-    <a class="small-button" href="confirm-delete.php?id=<?= $booking['BID'] ?>"><button id="delete-button">Delete Booking</button></a>
+    <a role="button" id="back-button" class="big-button" href="view-bookings.php">Finish Viewing</a> 
+    <a role="button" class="small-button" id="delete-button" href="confirm-delete.php?id=<?= $booking['BID'] ?>">Delete Booking</a>
 </article>
-
-
 
 <?php
 require 'partials/bottom.php';

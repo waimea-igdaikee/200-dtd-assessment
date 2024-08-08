@@ -1,6 +1,7 @@
 <?php
 require_once 'partials/top.php';
 
+// check-admin.php will use the get method to tell this page to display the wrong password message, otherwise don't display it
 $wrongLogin = empty($_GET['wrong']) ? 0 : $_GET['wrong'];
 
 ?>
@@ -19,7 +20,7 @@ $wrongLogin = empty($_GET['wrong']) ? 0 : $_GET['wrong'];
         }
         ?>
 
-        <a class="grey-button small-button" href="index.php"><button type='button'>Cancel</button></a>
+        <a role="button" class="grey-button small-button" href="index.php">Cancel</a>
         <input class="big-button" type="submit" value="Log in">
     </form>
 </article>

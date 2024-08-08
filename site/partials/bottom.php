@@ -6,9 +6,9 @@
     <!-- If $isAdmin exists and is true show the admin log out button instead of log in -->
     <?php
     if (isset($isAdmin) && $isAdmin == 1) {
-        echo '<a href="index.php"><button>Admin Logout</button></a>';
+        echo '<a role="button" href="index.php">Admin Logout</a>';
     } else {
-        echo '<a href="form-admin.php"><button>Admin Login</button></a>';
+        echo '<a role="button" href="form-admin.php">Admin Login</a>';
     }
     
     ?>

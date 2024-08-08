@@ -238,11 +238,14 @@ I showed my Mum the changes I made based on her feedback. She is very happy with
 - [] I would like a frangipani flower as my logo
 - []
 
-### DATE HERE
+### 2024-08-08
 
-Replace this test with what you are working on
+My website is nearing being finished. Keeping in line with both best practice and my identified requirement of accessibility, I have started putting all my HTML code through a validator. I will do this again once the site is 100% finished, but it's important to iron out most of the bugs now. This is important - just because my browser on my machine can compensate for my improper code, someone on a older device using a less advanced browser may not be able to view the site.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+There were quite a few errors across all the pages:
+![HTML validator showing invalid](images/invalid.png)
+However I have fixed all of them (for now).
+![HTML validator showing valid](images/valid.png)
 
 ### DATE HERE
 
