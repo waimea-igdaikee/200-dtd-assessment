@@ -2,17 +2,9 @@
 
 require_once 'partials/top.php';
 
-?>
-
-
-<p>Working...</p>
-
-<?php
-
 echo empty($_POST['phone']);
 
-
-// Ternary operators for optional fields 
+// Ternary operators ensure that if an optional field is left blank then the server knows this is intentional and not an error
 $service = $_POST['service'];
 $online = $_POST['online'];
 $name = $_POST['name'];
@@ -23,10 +15,10 @@ $message = empty($_POST['message']) == 1 ? 'Left Blank' : $_POST['message'];
 
 $db = connectToDB();
 
-// Setup query to get company info
+// Setup query to insert booking info
 $query = 'INSERT INTO bookings (`service`, `online`, `name`, `email`, `phone`, `date`, `message`) VALUES (?, ?, ?, ?, ?, ?, ?)';
 
-// try to run the query
+// Try to run the query
 try
 {
     $stmt = $db->prepare($query);

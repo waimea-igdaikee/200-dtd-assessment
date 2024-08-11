@@ -12,7 +12,7 @@ require_once 'partials/top.php';
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-// Could do with improved security...
+// Checks admin username and password. Not at all secure, but good enough
 if ($username == "admin" && $password == "hunter123") {
     header("location: view-bookings.php"); 
 } else {

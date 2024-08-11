@@ -102,11 +102,11 @@ Replace this text with an explanation of what you will need to consider moving f
 
 ### Database Structure
 
-Place a image here that shows the *final design* of your database: tables, fields and relationships.
+![Final database schema](images/finalDatabase.png)
 
 ### User Interface Design
 
-Place images here that show your *final design* of your UI: layout, colours, etc.
+![Final interface design](images/finalInterface.png)
 
 
 -------------------------------------------------
@@ -115,7 +115,7 @@ Place images here that show your *final design* of your UI: layout, colours, etc
 
 ### Database Structure
 
-Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
+![Final database schema](images/actualDatabase.png)
 
 ### User Interface Design
 
@@ -134,9 +134,9 @@ Replace this text with a brief evaluation of how well you met the needs of your 
 
 Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
 
-### Review of IMPLICATION NAME HERE
+### Review of Aesthetics
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+After getting lots of feedback 
 
 ### Review of IMPLICATION NAME HERE
 

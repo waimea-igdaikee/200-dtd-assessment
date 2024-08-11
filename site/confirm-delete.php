@@ -3,13 +3,14 @@ require_once 'partials/top.php';
 
 $isAdmin = 1;
 
-$bookingid = $_GET['id']; // Error protection needed
+$bookingid = $_GET['id']; // Error protection needed?
 
+// Get's customer's name for deletion conformation
 $query = "SELECT `name` FROM bookings WHERE id={$bookingid}";
 
 
 $db = connectToDB();
-// try to run the query
+// Try to run the query
 try
 {
     $stmt = $db->prepare($query);
