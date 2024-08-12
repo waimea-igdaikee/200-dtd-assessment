@@ -30,8 +30,6 @@ catch (PDOException $e)
     die('There was an error sending data to the database');
 }
 
-echo '<h3>Success! Your booking has been created.</h3>';
-
 header("location: index.php");
 ?>
 

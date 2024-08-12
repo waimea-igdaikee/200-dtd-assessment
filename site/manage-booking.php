@@ -31,6 +31,9 @@ catch (PDOException $e)
     die('There was an error getting data from the database');
 }
 
+// Convert date format
+$date = strtotime($booking['date']);
+
 // Ternary operator ensures that if phone == 0 (meaning it was left blank) then it says 'Left blank'
 
 $phone = ($booking['phone'] == 0) ? 'Left blank' : substr($booking['phone'],0,48);
@@ -55,7 +58,7 @@ $location = ($booking['online'] == 1) ? 'Online' : 'In Person'
                 <p>Date:</p>
             </td>
             <td>
-                <p><?=substr($booking['date'],0,48)?></p>
+                <p><?=date('d/m/Y', $date)?></p>
             </td>
         </tr>
 
@@ -91,7 +94,7 @@ $location = ($booking['online'] == 1) ? 'Online' : 'In Person'
                 <p>Email Address:</p>
             </td>
             <td>
-                <p><?=substr($booking['email'],0,48)?></p>
+                <p><?=$booking['email'],0,48?></p>
             </td>
         </tr>
 

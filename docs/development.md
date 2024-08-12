@@ -235,7 +235,6 @@ define('SERVICE_3_DESCRIPTION', $services[2]['description']);
 I showed my Mum the changes I made based on her feedback. She is very happy with how the website is progressing, and she had some more changes to me made:
 - [x] I would prefer if the circular buttons (radio buttons) were square like the buttons below (the square cancel / add buttons)
 - [] I would like a frangipani flower as my logo
-- []
 
 ### 2024-08-08
 
@@ -246,16 +245,27 @@ There were quite a few errors across all the pages:
 However I have fixed all of them (for now).
 ![HTML validator showing valid](images/valid.png)
 
-### DATE HERE
+### 2024-08-11
 
-Replace this test with what you are working on
+I got some feedback from members of the public. It exposed a few flaws (some that you'd think would be obvious) that neither me nor my Mum could see:
+- [] There should be some image on the home page somewhere so I know who Valerie is
+- [x] There needs to be some confirmation thing so I actually know the booking has gone through
+- [x] Why isn't the header a link?
+- [x] If I don't know if this is going to cost me, why would I create a booking?
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+My Mum said that it would be best for her to simply send the confirmation email herself, with details personalised to that person's individual booking. As she said she may like to vary the payment cost depending on people's situations (e.g. if they're struggling with money), I have added a line that says that "Valerie will send an email confirming your booking details shortly. Payment will be discussed further over email or phone".
 
-### DATE HERE
+### 2024-08-12
 
-Replace this test with what you are working on
+I got some semi-final feedback from my Mum. She is very happy with how the website is coming along, and she finds the admin panel quite easy and intuitive to use. She had some minor suggestions, though:
+- [x] On the booking page, the date format is DD/MM/YYYY, but on the booking page it is YYYY-MM-DD 0:00:00. These zeroes add clutter and the date format is confusing - it's the wrong way around!
+- [] Part of the message seems to get cut off.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
-
+Upon investigation, it appears that the message on the view bookings page was getting cut off after 48 characters:
+![Message getting cut off](images/cutOff.png)
+This is because I copied the echo statements from the overview page, where I was using the substr() function to ensure nothing overflowed:
+```php
+echo    substr($booking['Sname'],0,48);
+```
+However we certainly don't what names and messages getting cut off on the actual page. As such, I have updated the code:
 // Phone number set to text not int; access

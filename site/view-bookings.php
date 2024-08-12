@@ -31,6 +31,7 @@ catch (PDOException $e)
     die('There was an error getting data from the database');
 }
 
+
 ?>
 <article>
     <table>
@@ -45,6 +46,8 @@ catch (PDOException $e)
 
 foreach($bookings as $booking)
 {
+    // Convert date format
+    $date = strtotime($booking['date']);
 
     echo '<tr>';
 
@@ -53,7 +56,7 @@ foreach($bookings as $booking)
     echo    '</td>';
 
     echo    '<td>';
-    echo        substr($booking['date'],0,48);
+    echo        date('d/m/Y', $date);
     echo    '</td>';
 
     echo    '<td>';
