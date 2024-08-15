@@ -40,7 +40,7 @@ $serviceid = $_GET['service']; // Error protection needed
         <label>Message (Optional)</label>
         <textarea name="message" rows="4" cols="50"></textarea>
 
-        <p>Valerie will send an email confirming your booking details shortly. Payment will be discussed further over email or phone</p>
+        <p>Valerie will send an email confirming your booking details shortly. Payment will be discussed further over email or phone.</p>
         <a role="button" class="grey-button small-button" href="index.php">Cancel</a>
         <input class="big-button" type="submit" value="Add">
     </form>

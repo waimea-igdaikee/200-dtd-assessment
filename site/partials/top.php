@@ -26,4 +26,4 @@ $page = basename($_SERVER['SCRIPT_NAME']);
     </header>
 
     <main>
-        <h1 id="title" style="margin-bottom: 1.6rem;"><?= SITE_NAME ?></h1>
+        <h1 id="title" style="margin-bottom: 1.6rem;"><a href="index.php"><?= SITE_NAME ?></a></h1>

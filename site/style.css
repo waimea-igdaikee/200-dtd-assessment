@@ -8,6 +8,39 @@ header {
     z-index: -20;
 }
 
+#title {
+    margin-bottom: 1.6rem;
+}
+
+#title a {
+    text-decoration: none;
+    color: var(--pico-h1-color)
+}
+
+#banner {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 575px) {
+    #banner {
+        flex-direction: column;
+    }
+    #banner img {
+        width: 100%;
+    }
+}
+
+#banner p {
+    width: 80%;
+}
+
+@media (min-width: 575px) {
+    #banner img {
+        height: 150px;
+        margin-left: 18px;
+    }
+}
 
 
 @media (max-width: 420px) {
@@ -20,6 +53,7 @@ header {
 button {
     margin-bottom: 5px;
 }
+
 
 
 body {

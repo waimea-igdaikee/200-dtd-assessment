@@ -36,12 +36,12 @@ $date = strtotime($booking['date']);
 
 // Ternary operator ensures that if phone == 0 (meaning it was left blank) then it says 'Left blank'
 
-$phone = ($booking['phone'] == 0) ? 'Left blank' : substr($booking['phone'],0,48);
+$phone = ($booking['phone'] == 0) ? 'Left blank' : $booking['phone'];
 $location = ($booking['online'] == 1) ? 'Online' : 'In Person'
 ?>
 
 <article>
-    <h3>Viewing booking for<b> <?=substr($booking['Bname'],0,48)?> </b></h3>
+    <h3>Viewing booking for<b> <?=$booking['Bname']?> </b></h3>
 
     <table>
         <tr>
@@ -49,7 +49,7 @@ $location = ($booking['online'] == 1) ? 'Online' : 'In Person'
                 <p>Name:</p>
             </td>
             <td>
-                <p><?=substr($booking['Bname'],0,48)?></p>
+                <p><?=$booking['Bname']?></p>
             </td>
         </tr>
 
@@ -67,7 +67,7 @@ $location = ($booking['online'] == 1) ? 'Online' : 'In Person'
                 <p>Service:</p>
             </td>
             <td>
-                <p><?=substr($booking['Sname'],0,48)?></p>
+                <p><?=$booking['Sname']?></p>
             </td>
         </tr>
 
@@ -94,7 +94,7 @@ $location = ($booking['online'] == 1) ? 'Online' : 'In Person'
                 <p>Email Address:</p>
             </td>
             <td>
-                <p><?=$booking['email'],0,48?></p>
+                <p><?=$booking['email']?></p>
             </td>
         </tr>
 
@@ -103,7 +103,7 @@ $location = ($booking['online'] == 1) ? 'Online' : 'In Person'
                 <p>Message:</p>
             </td>
             <td>
-                <p><?=substr($booking['message'],0,48)?></p>
+                <p><?=$booking['message']?></p>
             </td>
         </tr>
 

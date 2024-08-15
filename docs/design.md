@@ -13,7 +13,7 @@ Assessment Standards: **91892** and **91893**
 
 ### Identified Need or Problem
 
-My Mum needs a website to manage her services and keep track of her bookings for her life coaching business. 
+My Mum needs a website for her life coaching business to both allow people to make bookings and to make it easier for her to manage these bookings.
 
 ### End-User Requirements
 
@@ -21,7 +21,7 @@ I have two end user groups: members of the public and my Mum. Requirements for m
 - A page listing my Mum's different services
 - A page for creating a booking
 - Attractive, aesthetically pleasing website
-- Suitable level of language
+- Suitable level of language (i.e. not too advanced or basic)
 
 
 Requirements for my Mum include:
@@ -30,7 +30,7 @@ Requirements for my Mum include:
 
 ### Proposed Solution
 
-Replace this text with a brief statement about the system that you intend to create, including the key functionality it should have.
+My solution is to create a website that allows members from the public to read about my mum's business and make bookings. It would also have a way for my mum to log in and manage (view and delete) these bookings.
 
 
 -------------------------------------------------
@@ -138,12 +138,20 @@ Replace this text with a brief evaluation of how well you met the requirements t
 
 After getting lots of feedback 
 
-### Review of IMPLICATION NAME HERE
+### Review of Accessibility
+
+After doing lots of testing, including getting members of the public to test the site, I can safely say that the website is accessible to all people. This testing has involved
+- HTML validation to ensure people on any (remotely modern) browser will be able to view and use the site properly
+- Contrast validation
+
+### Review of Functionality
 
 Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### Review of IMPLICATION NAME HERE
+### Review of Usability
 
 Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
+### Review of Privacy
 
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.

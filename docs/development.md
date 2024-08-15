@@ -183,7 +183,7 @@ I showed my Mum the website. She had a fair bit of feedback for me:
 
 - [x] If I get the admin password wrong it should tell be instead of sending me back
 - [x] When viewing a booking I want it to say "In Person" or "Online", not "Online: 0" or "Online: 1"
-- [] I'd like bookings to be deleted once they pass their date
+- [x] I don't want bookings to be deleted 
 - [x] That horrible yellow bar at the top needs to go across the entire screen
 - [x] Replace the yellow with that colour I chose (#f6ec85)
 
@@ -234,7 +234,6 @@ define('SERVICE_3_DESCRIPTION', $services[2]['description']);
 
 I showed my Mum the changes I made based on her feedback. She is very happy with how the website is progressing, and she had some more changes to me made:
 - [x] I would prefer if the circular buttons (radio buttons) were square like the buttons below (the square cancel / add buttons)
-- [] I would like a frangipani flower as my logo
 
 ### 2024-08-08
 
@@ -259,13 +258,30 @@ My Mum said that it would be best for her to simply send the confirmation email 
 
 I got some semi-final feedback from my Mum. She is very happy with how the website is coming along, and she finds the admin panel quite easy and intuitive to use. She had some minor suggestions, though:
 - [x] On the booking page, the date format is DD/MM/YYYY, but on the booking page it is YYYY-MM-DD 0:00:00. These zeroes add clutter and the date format is confusing - it's the wrong way around!
-- [] Part of the message seems to get cut off.
+- [x] Part of the message seems to get cut off.
 
 Upon investigation, it appears that the message on the view bookings page was getting cut off after 48 characters:
 ![Message getting cut off](images/cutOff.png)
-This is because I copied the echo statements from the overview page, where I was using the substr() function to ensure nothing overflowed:
+This is because I copied the echo statements from the overview page, where I was using the substr() function to ensure the preview didn't overflow:
 ```php
 echo    substr($booking['Sname'],0,48);
 ```
 However we certainly don't what names and messages getting cut off on the actual page. As such, I have updated the code:
-// Phone number set to text not int; access
+```php
+<p><?=$booking['message']?></p>
+```
+
+### 2024-08-15
+The actual code-portion of my website is (unless any rouge bugs get found, that is), and as such I am going to run some tests that relate to my relevant implications - such as contrast checks and HTML validation for accessibility and functionality.
+
+The vast majority of text on my website is black on white so unsurprisingly is passes all contrast checks:
+
+![A+ on the contrast text](images/contrast1.png)
+
+Some of the content, such as in the radio buttons on the booking page, is black on grey:
+
+![Radio buttons with black on grey](images/radio.png)
+
+All is well though, as it still passes all the tests:
+
+![Good contrast test result](images/contrast2.png)
