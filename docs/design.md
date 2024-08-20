@@ -119,7 +119,7 @@ Replace this text with an explanation of what you will need to consider moving f
 
 ### User Interface Design
 
-Place screenshots and notes here that show your *actual system UI* in action.
+!(../../../../Year 12/DT/2024-08-18 18-30-17.mkv)
 
 
 -------------------------------------------------
@@ -136,12 +136,12 @@ Replace this text with a brief evaluation of how well you met the requirements t
 
 ### Review of Aesthetics
 
-After getting lots of feedback 
+After getting lots of feedback from the public, I can safely say that my 
 
 ### Review of Accessibility
 
 After doing lots of testing, including getting members of the public to test the site, I can safely say that the website is accessible to all people. This testing has involved
-- HTML validation to ensure people on any (remotely modern) browser will be able to view and use the site properly
+- HTML and CSS validation to ensure people on any (remotely modern) browser will be able to view and use the site properly
 - Contrast validation
 
 ### Review of Functionality
@@ -154,4 +154,6 @@ Replace this text with brief notes showing how the implication was addressed in 
 
 ### Review of Privacy
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+To ensure the privacy of my Mum's clients, I have implemented an admin panel that is locked behind both a username and password that only my mum knows:
+
+![password protection](images/password.png)

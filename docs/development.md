@@ -285,3 +285,11 @@ Some of the content, such as in the radio buttons on the booking page, is black 
 All is well though, as it still passes all the tests:
 
 ![Good contrast test result](images/contrast2.png)
+
+I have also validated my HTML:
+
+![Valid HTML code](images/validhtml.png)
+
+and CSS:
+
+![Valid css](images/validcss.png.png)
