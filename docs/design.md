@@ -25,7 +25,9 @@ I have two end user groups: members of the public and my Mum. Requirements for m
 
 
 Requirements for my Mum include:
+- Interface to view and manage bookings
 - Simple and easy to use interface
+- Foolproof
 
 
 ### Proposed Solution
@@ -61,9 +63,9 @@ To make my website accessible to all I will need to ensure that my website works
 
 Functionality is ensuring a website works as intended, as expected, and well.
 
-A functional design is very important for both the public and admin sides of the website - the public are going to expect it to work as expected from their point of view, without bugs and issues; if there are any bugs then they are unlikely to use the website and consequentially my Mum's services. My Mum also needs a functional admin interface in order to effectively manage bookings, and this certainly needs to be bug free and work as expected else she will freak out.
+A functional design is very important for both the public and admin sides of the website - the public are going to expect it to work as expected from their point of view, without bugs and issues; if there are any bugs then they are unlikely to use the website and consequentially my mum's services. My mum also needs a functional admin interface in order to effectively manage bookings, and this certainly needs to be bug free and work as expected else she will freak out.
 
-I'll need to get feedback and testing from both my Mum and members of the public to make sure my website works as they expect it to. Once I implement this feedback, I'll need to get more updated feedback from both parties, and continue this cycle until I have a final design. Once I reach this final design stage, I will need to evaluate the functionality of this design against my original design. This will ensure the website is logical and bug-free.
+I'll need to get feedback and testing from both my mum and members of the public to make sure my website works as they expect it to. Once I implement this feedback, I'll need to get more updated feedback from both parties, and continue this cycle until I have a final design. Once I reach this final design stage, I will need to evaluate the functionality of this design against my original design. This will ensure the website is logical and bug-free.
 
 ### Usability
 
@@ -87,14 +89,6 @@ It's vital that the privacy of end-users is protected; this website is for a lif
 
 My Mum doesn't need a whole lot of information about her clients; the only (potentially) sensitive info being stored would be a few short, optional sentence that customers can fill out. However, this information is identifiable by name, and if it isn't securely and private, this would be a breach of the NZ Privacy Act 1993. On my website this wil look like making sure the admin page is password-protected (and the authentication system running on the server so it can't be easily bypassed), and also having a privacy statement on what data is being collected.
 
-
-### YOUR IMPLICATION HERE
-
-Replace this text with a clear explanation of what the implication means.
-
-Replace this text with an explanation of why the implication is relevant to this particular project.
-
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
 
 -------------------------------------------------
 
@@ -130,27 +124,45 @@ Replace this text with an explanation of what you will need to consider moving f
 
 Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
 
+I have user groups for this website: My mum, and the public. The needs I originally identified for the public were:
+- A page listing my Mum's different services
+- A page for creating a booking
+- Attractive, aesthetically pleasing website
+- Suitable level of language (i.e. not too advanced or basic)
+
+...and the needs identified for my Mum were:
+- Interface to view and manage bookings
+- Simple and easy to use interface
+- Foolproof
+
+All these needs have been met; the specific ways (and video proof) is below.
+
 ### Meeting the System Requirements
 
 Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
 
 ### Review of Aesthetics
 
-After getting lots of feedback from the public, I can safely say that my 
+After getting lots of feedback from both the public and my Mum, and after plenty of design iteration right from the very first sketches, my website is now optimally aesthetically pleasing. 
 
 ### Review of Accessibility
 
 After doing lots of testing, including getting members of the public to test the site, I can safely say that the website is accessible to all people. This testing has involved
 - HTML and CSS validation to ensure people on any (remotely modern) browser will be able to view and use the site properly
 - Contrast validation
+- Alt text on images, and correct form labels
 
 ### Review of Functionality
 
 Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
+To make the website work as intended and expected from the points of view of both my mum and the public, I got lots of feedback from both parties. Throughout the iterative process there were many things that 
+
 ### Review of Usability
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+I designed this website to be as easy to use as possible, and the main way of doing this was obeying Nielsen's usability heuristics:
+- Consistency and Standards: People expect the site to act like most other websites, and as such I've followed the expected conventions, such as having the header be a link to the main page of the website: 
+- Error prevention: Users can be irational - this could include trying to input date that don't exist, forgetting to include a name, accidentally deleting an important booking, etc. I have added multiple forms of error prevention to counter this - on the public booking creation page, I have made sure that 
 
 ### Review of Privacy
 
