@@ -78,7 +78,7 @@ In order to make my website as usable as possible, I will need to make sure my w
 - Consistency and Standards: I will need to make sure my website sticks to established layout conventions, such as having the navigation bar at the top and using standard icons, such as using a house icon for the home page. This will make navigation easy.
 - Error Prevention: I will need to make sure that wherever users can input data that there is error checking to prevent users from inputting incorrect data, e.g. they shouldn't be able to input a date that doesn't exist. This will prevent end-users from making headache-inducing mistakes. This also entails having conformation messages before users commit to an irreversible action, and by integrating these into my website will ensure my Mum doesn't accidentally delete any bookings.
 - Aesthetic and Minimalist Design: By making sure both the public and admin sides of my website have a simple design that displays only what is relevant and necessary, both the public and my Mum will have an easier time navigating and operating the website.
-- Help and Documentation: I will have a help menu to answer the any questions that members of the public may have (e.g. *how do I make a booking?*). This may be in the form of a sticky question mark button in the corner of the site, but I will get feedback on what works best. I may also implement a similar system on the admin page(s) can help my Mum if she gets confused. Ideally, though, my website will be simple and logical enough that end-users shouldn't need help.
+- Help and Documentation: If necessary, I will have a help menu to answer the any questions that members of the public may have (e.g. *how do I make a booking?*). This may be in the form of a sticky question mark button in the corner of the site, but I will get feedback on what works best. I may also implement a similar system on the admin page(s) can help my Mum if she gets confused. Ideally, though, my website will be simple and logical enough that end-users shouldn't need help.
 
 
 ### Privacy
@@ -87,7 +87,7 @@ Privacy is about protecting end-users and keeping their data secure and private.
 
 It's vital that the privacy of end-users is protected; this website is for a life coaching business where members of the public may disclose personal information. Aside from the ethical implications of storing sensitive data, abiding by the NZ Privacy Act 1993 is required by law, so it's vital that this system follows abides by that.
 
-My Mum doesn't need a whole lot of information about her clients; the only (potentially) sensitive info being stored would be a few short, optional sentence that customers can fill out. However, this information is identifiable by name, and if it isn't securely and private, this would be a breach of the NZ Privacy Act 1993. On my website this wil look like making sure the admin page is password-protected (and the authentication system running on the server so it can't be easily bypassed), and also having a privacy statement on what data is being collected.
+My Mum doesn't need a whole lot of information about her clients; the only (potentially) sensitive info being stored would be a few short, optional sentence that customers can fill out. However, this information is identifiable by name, and if it isn't securely and private, this would be a breach of the NZ Privacy Act 1993. On my website this wil look like making sure the admin page is password-protected and also having a privacy statement on what data is being collected.
 
 
 -------------------------------------------------
@@ -113,7 +113,7 @@ My Mum doesn't need a whole lot of information about her clients; the only (pote
 
 ### User Interface Design
 
-!(../../../../Year 12/DT/2024-08-18 18-30-17.mkv)
+![Video showing that the website works](images/video.mkv)
 
 
 -------------------------------------------------
@@ -143,7 +143,7 @@ Replace this text with a brief evaluation of how well you met the requirements t
 
 ### Review of Aesthetics
 
-After getting lots of feedback from both the public and my Mum, and after plenty of design iteration right from the very first sketches, my website is now optimally aesthetically pleasing. 
+After getting lots of feedback from both the public and my Mum, and after plenty of design iteration right from the very first sketches, my website is now optimally aesthetically pleasing. The design can be seen in the video.
 
 ### Review of Accessibility
 
@@ -152,20 +152,29 @@ After doing lots of testing, including getting members of the public to test the
 - Contrast validation
 - Alt text on images, and correct form labels
 
+
+
 ### Review of Functionality
 
 Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-To make the website work as intended and expected from the points of view of both my mum and the public, I got lots of feedback from both parties. Throughout the iterative process there were many things that 
+To make the website work as intended and expected from the points of view of both my mum and the public, I got lots of feedback from both parties. Throughout the iterative process there were many things identified that weren't logical or expected, for example:
+- The header not being a link
+- Dates using the ISO format instead of the standard date format used in NZ
+- 
 
 ### Review of Usability
 
 I designed this website to be as easy to use as possible, and the main way of doing this was obeying Nielsen's usability heuristics:
 - Consistency and Standards: People expect the site to act like most other websites, and as such I've followed the expected conventions, such as having the header be a link to the main page of the website: 
-- Error prevention: Users can be irational - this could include trying to input date that don't exist, forgetting to include a name, accidentally deleting an important booking, etc. I have added multiple forms of error prevention to counter this - on the public booking creation page, I have made sure that 
+- Error prevention: Users can be irrational - this could include trying to input date that don't exist, forgetting to include a name, accidentally deleting an important booking, etc. I have added multiple forms of error prevention to counter this - on the public booking creation page, I have made sure that incorrect types of data cannot be entered - for example, the user cannot 'Dave' in the booking date field. On the admin side, I have added confirmation for when my Mum tries to delete a booking, ensuring she doesn't accidentally delete anything important.
+- Aesthetic and Minimalist Design: As written in review of accessibility (above), the website has an aesthetically pleasing, minimalist design. Aside from the benefits of a good looking design (above), by having a minimalistic interface I have ensured that only relevant information is displayed, giving both the public and my mum an easier time navigating - especially if they aren't tech-savvy. This can be seen in the video.
+- Help and Documentation: By having a very simple design, feedback from the public determined that I don't need and help menu - everything is logical, even for someone that has very poor computer skills.
 
 ### Review of Privacy
 
 To ensure the privacy of my Mum's clients, I have implemented an admin panel that is locked behind both a username and password that only my mum knows:
 
 ![password protection](images/password.png)
+
+This is enough security to not be in breach of the NZ Privacy Act 1993. The only data that is collected is what the user submits, so no privacy statement is required.

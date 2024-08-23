@@ -251,6 +251,7 @@ I got some feedback from members of the public. It exposed a few flaws (some tha
 - [x] There needs to be some confirmation thing so I actually know the booking has gone through
 - [x] Why isn't the header a link?
 - [x] If I don't know if this is going to cost me, why would I create a booking?
+- [x] The website was very logically laid out and easy to use.
 
 My Mum said that it would be best for her to simply send the confirmation email herself, with details personalised to that person's individual booking. As she said she may like to vary the payment cost depending on people's situations (e.g. if they're struggling with money), I have added a line that says that "Valerie will send an email confirming your booking details shortly. Payment will be discussed further over email or phone".
 
