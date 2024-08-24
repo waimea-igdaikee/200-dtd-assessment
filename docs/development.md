@@ -247,7 +247,7 @@ However I have fixed all of them (for now).
 ### 2024-08-11
 
 I got some feedback from members of the public. It exposed a few flaws (some that you'd think would be obvious) that neither me nor my Mum could see:
-- [] There should be some image on the home page somewhere so I know who Valerie is
+- [x] There should be some image on the home page somewhere so I know who Valerie is
 - [x] There needs to be some confirmation thing so I actually know the booking has gone through
 - [x] Why isn't the header a link?
 - [x] If I don't know if this is going to cost me, why would I create a booking?

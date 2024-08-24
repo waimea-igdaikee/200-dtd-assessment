@@ -135,7 +135,7 @@ I have user groups for this website: My mum, and the public. The needs I origina
 - Simple and easy to use interface
 - Foolproof
 
-All these needs have been met; the specific ways (and video proof) is below.
+All these needs have been met through feedback and iterative design. The end result can be seen in the video.
 
 ### Meeting the System Requirements
 
@@ -152,6 +152,10 @@ After doing lots of testing, including getting members of the public to test the
 - Contrast validation
 - Alt text on images, and correct form labels
 
+Other miscellaneous accessiblity testing included:
+- Confirmation of readability from colour-blind people (i.e. my Dad)
+- Testing on various mobile devices
+- Testing of many different screen sizes with the developer tools
 
 
 ### Review of Functionality
@@ -161,7 +165,11 @@ Replace this text with brief notes showing how the implication was addressed in 
 To make the website work as intended and expected from the points of view of both my mum and the public, I got lots of feedback from both parties. Throughout the iterative process there were many things identified that weren't logical or expected, for example:
 - The header not being a link
 - Dates using the ISO format instead of the standard date format used in NZ
-- 
+- There being no indication of whether a confirmation email will be sent
+
+All of these issues were adressed. A thourough scan of all functionality of the website was done to ensure there were no bugs.
+
+This proper, intended, and expected functionality can be seen in the video.
 
 ### Review of Usability
 
