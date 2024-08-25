@@ -4,7 +4,7 @@ require_once 'partials/top.php';
 
 $isAdmin = 1;
 
-$bookingid = $_GET['id']; // Error protection needed
+$bookingid = $_GET['id'];
 
 ?>
 
@@ -29,15 +29,9 @@ try
 catch (PDOException $e)
 {
     consoleLog($e->getMessage(), 'DB Post', ERROR);
-    die('There was an error sending data to the database');
+    die('There was an error deleting the booking from the database');
 }
-
-echo '<h3>Success! Your booking has been deleted.</h3>';
-
 
 header("location: view-bookings.php");
 
-?>
-
-
-<?php include 'partials/bottom.php'; ?>
+include 'partials/bottom.php'; ?>

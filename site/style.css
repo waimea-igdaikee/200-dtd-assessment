@@ -1,3 +1,7 @@
+body {
+    --pico-primary-background: #f6ec85;
+}
+
 header {
     background-color: var(--pico-primary-background);
     max-width: 100% !important;
@@ -8,15 +12,21 @@ header {
     z-index: -20;
 }
 
-#title {
-    margin-bottom: 1.6rem;
+
+main {
+    min-height: calc(100vh - 205px);
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 0 auto;
 }
 
-#title a {
-    text-decoration: none;
-    color: var(--pico-h1-color)
+@media (min-width: 1280px) {
+    main, footer {
+        max-width: 1200px !important;
+    }
 }
 
+/* 'Welcome to Valerie Daikee Life Coach...' text */
 #banner {
     display: flex;
     flex-direction: row;
@@ -42,6 +52,14 @@ header {
     }
 }
 
+#title {
+    margin-bottom: 1.6rem;
+}
+
+#title a {
+    text-decoration: none;
+    color: var(--pico-h1-color)
+}
 
 @media (max-width: 420px) {
     #title {
@@ -50,36 +68,14 @@ header {
     header {height: calc(17vw);}
 }
 
+/* Buttons */
 button {
     margin-bottom: 5px;
-}
-
-
-
-body {
-    --pico-primary-background: #f6ec85;
-}
-
-main {
-    min-height: calc(100vh - 205px);
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto 0 auto;
-}
-
-@media (min-width: 1280px) {
-    main, footer {
-        max-width: 1200px !important;
-    }
 }
 
 .grey-button {
     margin: 0;
     margin-right: 3px;
-}
-
-
-.grey-button {
     background-color: var(--pico-muted-border-color);
     border-color: var(--pico-secondary-focus);
 }
@@ -95,6 +91,7 @@ main {
 .big-button , input.big-button {
     width: calc(70% - 5px);
 }
+
 .small-button {
     width: calc(30% - 5px);
 }
@@ -109,6 +106,17 @@ main {
         margin-bottom: 5px;
     }
 }
+
+#delete-button {
+    color: white;
+    background-color:#d13232;
+    border-color: #b30505;
+}
+#delete-button:hover {
+    background-color: #c70000;
+}
+
+/* Form things */
 
 .selected { /* Form radio button colour changing*/
     background-color: var(--pico-primary-background) !important;
@@ -136,14 +144,6 @@ main {
     background-color: var(--pico-primary-background);
 }
 
-#delete-button {
-    color: white;
-    background-color:#d13232;
-    border-color: #b30505;
-}
-#delete-button:hover {
-    background-color: #c70000;
-}
 
 footer {
     display: flex;

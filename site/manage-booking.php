@@ -18,7 +18,7 @@ $query = "SELECT *,  bookings.name AS `Bname`,
 $db = connectToDB();
 
 
-// try to run the query
+// Try to run the query
 try
 {
     $stmt = $db->prepare($query);

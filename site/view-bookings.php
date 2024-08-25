@@ -46,8 +46,7 @@ catch (PDOException $e)
 
 foreach($bookings as $booking)
 {
-    // Convert date format
-    $date = strtotime($booking['date']);
+    $date = strtotime($booking['date']); // Convert date format
 
     echo '<tr>';
 

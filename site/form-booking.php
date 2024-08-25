@@ -9,8 +9,8 @@ $serviceid = $_GET['service']; // Error protection needed
         <label>Service</label>
         <select name="service" required>
             <option value="">Select a service:</option>
-            <option value="1" <?php if ($serviceid == 'service1') {echo 'selected';} ?> ><?= SERVICE_1 ?></option>  <!-- The php if statement echoes 'selected' -->
-            <option value="2" <?php if ($serviceid == 'service2') {echo 'selected';} ?> ><?= SERVICE_2 ?></option>  <!-- if $serviceid is that service.         -->
+            <option value="1" <?php if ($serviceid == 'service1') {echo 'selected';} ?> ><?= SERVICE_1 ?></option>  <!-- The PHP sets the correct service to be selected by default-->
+            <option value="2" <?php if ($serviceid == 'service2') {echo 'selected';} ?> ><?= SERVICE_2 ?></option>
             <option value="3" <?php if ($serviceid == 'service3') {echo 'selected';} ?> ><?= SERVICE_3 ?></option>
         </select>
 
