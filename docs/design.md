@@ -113,7 +113,7 @@ My Mum doesn't need a whole lot of information about her clients; the only (pote
 
 ### User Interface Design
 
-![Video showing that the website works](images/video.mkv)
+![Video showing that the website works](images/video.mp4)
 
 
 -------------------------------------------------
