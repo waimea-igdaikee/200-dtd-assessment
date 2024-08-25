@@ -248,7 +248,6 @@ I got some feedback from members of the public. It exposed a few flaws (some tha
 
 My Mum said that it would be best for her to simply send the confirmation email herself, with details personalised to that person's individual booking. As she said she may like to vary the payment cost depending on people's situations (e.g. if they're struggling with money), I have added a line that says that "Valerie will send an email confirming your booking details shortly. Payment will be discussed further over email or phone".
 
-
 ### 2024-08-12
 
 I got some semi-final feedback from my Mum. She is very happy with how the website is coming along, and she finds the admin panel quite easy and intuitive to use. She had some minor suggestions, though:

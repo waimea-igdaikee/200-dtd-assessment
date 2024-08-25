@@ -150,7 +150,7 @@ The idenfified requirements at the start were:
 - Allows members of the public to create bookings for different services
 - Allows admins to view and manage bookings
 
-This was a high-level overview of what I needed the website to do, and it has met all these requirements well. This can be seen in the video.
+This was a high-level overview of what I needed the website to do, and it has met all these requirements well. This can be seen in the video above.
 
 ### Review of Aesthetics
 
@@ -158,6 +158,8 @@ After getting lots of feedback from both the public and my Mum, and after plenty
 > Love the colours.
 > The website looks clean, I like it.
 > [My mum] said she likes the new yellow colour.
+
+
 
 ### Review of Accessibility
 
@@ -188,14 +190,14 @@ To make the website work as intended and expected from the points of view of bot
 
 All of these issues (and many more) were adressed. A thourough scan of all functionality of the website was done to ensure there were no bugs.
 
-This proper, intended, expected, and bug-free functionality can be seen in the video.
+This proper, intended, expected, and bug-free functionality can be seen in the video above.
 
 ### Review of Usability
 
 I designed this website to be as easy to use as possible, and the main way of doing this was obeying Nielsen's usability heuristics:
 - Consistency and Standards: People expect the site to act like most other websites, and as such I've followed the expected conventions, such as having the header be a link to the main page of the website: 
 - Error prevention: Users can be irrational - this could include trying to input date that don't exist, forgetting to include a name, accidentally deleting an important booking, etc. I have added multiple forms of error prevention to counter this - on the public booking creation page, I have made sure that incorrect types of data cannot be entered - for example, the user cannot 'Dave' in the booking date field. On the admin side, I have added confirmation for when my Mum tries to delete a booking, ensuring she doesn't accidentally delete anything important.
-- Aesthetic and Minimalist Design: As written in review of accessibility (above), the website has an aesthetically pleasing, minimalist design. Aside from the benefits of a good looking design (above), by having a minimalistic interface I have ensured that only relevant information is displayed, giving both the public and my mum an easier time navigating - especially if they aren't tech-savvy. This can be seen in the video.
+- Aesthetic and Minimalist Design: As written in review of accessibility (above), the website has an aesthetically pleasing, minimalist design. Aside from the benefits of a good looking design (above), by having a minimalistic interface I have ensured that only relevant information is displayed, giving both the public and my mum an easier time navigating - especially if they aren't tech-savvy. This can be seen in the video above.
 - Help and Documentation: By having a very simple design, feedback from the public determined that I don't need and help menu - everything is logical, even for someone that has very poor computer skills. My Mum also found the admin panel easy to use - she said herself that I've left no room for confusion.
 
 ### Review of Privacy
