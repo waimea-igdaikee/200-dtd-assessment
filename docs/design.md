@@ -130,20 +130,34 @@ I have user groups for this website: My mum, and the public. The needs I origina
 - Attractive, aesthetically pleasing website
 - Suitable level of language (i.e. not too advanced or basic)
 
-...and the needs identified for my Mum were:
+These needs have been met by the website. The first two are obvious - that's basic functionality which it is trivial to see my website has. By using and building on top of PicoCSS, an elegant, attractive CSS framework, my website is very aesthetically appealing - this is discussed further below on the "Review of Aesthetics" section. I have ensured the level of languge complexity used on the website is right for the my Mum's target demographic - not too simple or complex - and feedback from the public has confirmed this:
+> I think it's easy to tell what's going on - it's clear who Valerie is and what her services are.
+
+The needs identified for my Mum were:
 - Interface to view and manage bookings
 - Simple and easy to use interface
 - Foolproof
 
-All these needs have been met through feedback and iterative design. The end result can be seen in the video.
+Through lots of back and forth feedback through the process of iterative design, my Mum is very happy with the admin panel. It allows her to do all she needs to do, is simple enough for her to be able to use without a hitch, and it has error prevention to prevent accidental mistakes or misclicks from having any repercussions.
 
 ### Meeting the System Requirements
 
 Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
 
+The idenfified requirements at the start were:
+- Database-connected website
+- Has information about the business
+- Allows members of the public to create bookings for different services
+- Allows admins to view and manage bookings
+
+This was a high-level overview of what I needed the website to do, and it has met all these requirements well. This can be seen in the video.
+
 ### Review of Aesthetics
 
-After getting lots of feedback from both the public and my Mum, and after plenty of design iteration right from the very first sketches, my website is now optimally aesthetically pleasing. The design can be seen in the video.
+After getting lots of feedback from both the public and my Mum, and after plenty of design iteration right from the very first sketches, my website is now optimally aesthetically pleasing:
+> Love the colours.
+> The website looks clean, I like it.
+> [My mum] said she likes the new yellow colour.
 
 ### Review of Accessibility
 
@@ -156,20 +170,25 @@ Other miscellaneous accessiblity testing included:
 - Confirmation of readability from colour-blind people (i.e. my Dad)
 - Testing on various mobile devices
 - Testing of many different screen sizes with the developer tools
+- Ensuring dark mode doesn't break the contrast
+- Having my Dad, who is red-green colourblind (deuteranomaly), confirm that the website is useable. It would be better if I had someone that was blue-yellow colourblind to test the website, as yellow features heavily, but I really can't see this being a problem, given that there is literally no blue on the website whatsoever. In fact, colour doesn't really play a part on this website at all - colour is only there to make it look nice, and doesn't serve and indicitive purpose - if all colour was removed so the website was entirely greyscale, it would still be fully useable, for example, with these radio buttons,
 
+![2 radio buttons, one selected](radioColour.png)
+
+it is still possible to see which is selected even in the absence of colour, due to the black selection indicator:
+
+![The above image in greyscale](images/radioGrey.png.png)
 
 ### Review of Functionality
-
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
 To make the website work as intended and expected from the points of view of both my mum and the public, I got lots of feedback from both parties. Throughout the iterative process there were many things identified that weren't logical or expected, for example:
 - The header not being a link
 - Dates using the ISO format instead of the standard date format used in NZ
 - There being no indication of whether a confirmation email will be sent
 
-All of these issues were adressed. A thourough scan of all functionality of the website was done to ensure there were no bugs.
+All of these issues (and many more) were adressed. A thourough scan of all functionality of the website was done to ensure there were no bugs.
 
-This proper, intended, and expected functionality can be seen in the video.
+This proper, intended, expected, and bug-free functionality can be seen in the video.
 
 ### Review of Usability
 
@@ -177,7 +196,7 @@ I designed this website to be as easy to use as possible, and the main way of do
 - Consistency and Standards: People expect the site to act like most other websites, and as such I've followed the expected conventions, such as having the header be a link to the main page of the website: 
 - Error prevention: Users can be irrational - this could include trying to input date that don't exist, forgetting to include a name, accidentally deleting an important booking, etc. I have added multiple forms of error prevention to counter this - on the public booking creation page, I have made sure that incorrect types of data cannot be entered - for example, the user cannot 'Dave' in the booking date field. On the admin side, I have added confirmation for when my Mum tries to delete a booking, ensuring she doesn't accidentally delete anything important.
 - Aesthetic and Minimalist Design: As written in review of accessibility (above), the website has an aesthetically pleasing, minimalist design. Aside from the benefits of a good looking design (above), by having a minimalistic interface I have ensured that only relevant information is displayed, giving both the public and my mum an easier time navigating - especially if they aren't tech-savvy. This can be seen in the video.
-- Help and Documentation: By having a very simple design, feedback from the public determined that I don't need and help menu - everything is logical, even for someone that has very poor computer skills.
+- Help and Documentation: By having a very simple design, feedback from the public determined that I don't need and help menu - everything is logical, even for someone that has very poor computer skills. My Mum also found the admin panel easy to use - she said herself that I've left no room for confusion.
 
 ### Review of Privacy
 

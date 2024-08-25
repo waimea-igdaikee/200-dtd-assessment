@@ -189,14 +189,6 @@ I showed my Mum the website. She had a fair bit of feedback for me:
 
 I also asked her if she wanted to be able to sort booking by anything other than date. She said no. I may still add a thing that lets her reverse the sort order as I know she will probably use that.
 
-
-<!-- FEEDBACK : NOT RADIO BUTTONS BUT SELECTY BUTTONS
-
-WHAT IF THERE'S NO BOOKINGS!!!
-DIFFERENT COLOUR IF THEY'VE ALRRADY HAPPENED
-SORTING BY X Y Z
-CONFORMATION WHEN I DO SOMETINH! OR WHEN USE DOES A CREATE A BOOKNG -->
-
 ### 2024-07-29
 
 I have been acting on my Mum's feedback, adding what she said would be good.
@@ -234,6 +226,7 @@ define('SERVICE_3_DESCRIPTION', $services[2]['description']);
 
 I showed my Mum the changes I made based on her feedback. She is very happy with how the website is progressing, and she had some more changes to me made:
 - [x] I would prefer if the circular buttons (radio buttons) were square like the buttons below (the square cancel / add buttons)
+She also said she likes the new yellow colour.
 
 ### 2024-08-08
 
@@ -254,6 +247,7 @@ I got some feedback from members of the public. It exposed a few flaws (some tha
 - [x] The website was very logically laid out and easy to use.
 
 My Mum said that it would be best for her to simply send the confirmation email herself, with details personalised to that person's individual booking. As she said she may like to vary the payment cost depending on people's situations (e.g. if they're struggling with money), I have added a line that says that "Valerie will send an email confirming your booking details shortly. Payment will be discussed further over email or phone".
+
 
 ### 2024-08-12
 
@@ -294,3 +288,15 @@ I have also validated my HTML:
 and CSS:
 
 ![Valid css](images/validcss.png.png)
+
+My Dad is colourblind (deuteranomaly), and though there is practically no red or green elements on the website (barring the red error messages), I got him to try using the website. He had no trouble whatsoever.
+
+### 2024-08-17
+I showed some members of the public my website to make sure there was absoluetly nothing I was missing. The only problem I found was that if the browser was in dark mode then the website's colours got all messed up due to PicoCSS clashing with my own css changes. Fixing this was as simple as putting ```data-theme="light"``` in the root html tag. This is important because my website was designed with a certian colour scheme in mind in order to be accessible. When the website went into dark mode, there was white text on yellow - meaning it could be very hard or outright impossible for some people to read.
+
+Other feedback from the public was all positive:
+> The website looks clean, I like it.
+> I think it's easy to tell what's going on - it's clear who Valerie is and what her services are.
+> Love the colours.
+
+With that out of the way, it is safe to say my website is complete.

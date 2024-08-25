@@ -11,6 +11,6 @@ This project is a database-connected website for a life coaching business that:
 
 The following documents support this project:
 
-- [Design & Review](design.md)
-- [Development & Testing](development.md)
+- [Design & Review](docs/design.md)
+- [Development & Testing](docs/development.md)
 
