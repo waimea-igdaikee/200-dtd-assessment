@@ -15,28 +15,45 @@ $query = "SELECT *,  bookings.name AS `Bname`,
 
 
 
-$db = connectToDB();
+// $db = connectToDB();
 
 
-// Try to run the query
-try
-{
+// // Try to run the query
+// try
+// {
+//     $stmt = $db->prepare($query);
+//     $stmt->execute();
+//     $booking = $stmt->fetch();
+// }
+// catch (PDOException $e)
+// {
+//     consoleLog($e->getMessage(), 'DB List Fetch', ERROR);
+//     die('There was an error getting data from the database');
+// }
+
+try {
+    $db = new PDO($dsn, $username, $password);
     $stmt = $db->prepare($query);
     $stmt->execute();
     $booking = $stmt->fetch();
-}
-catch (PDOException $e)
-{
+} catch(PDOException $e) {
     consoleLog($e->getMessage(), 'DB List Fetch', ERROR);
-    die('There was an error getting data from the database');
+    die('There was an error getting service data from the database');
 }
 
-// Convert date format
-$date = strtotime($booking['date']);
+
+// Die if the booking we are trying to view doesn't exist, otherwise continue and convert date format to standard written format
+if (is_array($booking) && isset($booking['date'])) {
+    $date = strtotime($booking['date']);
+} else {
+    die("This booking couldn't be found. Perhaps it has been deleted?");
+}
+
+
 
 // Ternary operator ensures that if phone == 0 (meaning it was left blank) then it says 'Left blank'
 
-$phone = ($booking['phone'] == 0) ? 'Left blank' : $booking['phone'];
+$phone = ($booking['phone'] == 0) ? '<i>Left blank</i>' : $booking['phone'];
 $location = ($booking['online'] == 1) ? 'Online' : 'In Person'
 ?>
 
@@ -110,7 +127,7 @@ $location = ($booking['online'] == 1) ? 'Online' : 'In Person'
     </table>
 
     <a role="button" id="back-button" class="big-button" href="view-bookings.php">Finish Viewing</a> 
-    <a role="button" class="small-button" id="delete-button" href="confirm-delete.php?id=<?= $booking['BID'] ?>">Delete Booking</a>
+    <a role="button" class="small-button" id="delete-button" href="confirm-delete-booking.php?id=<?= $booking['BID'] ?>">Delete Booking</a>
 </article>
 
 <?php

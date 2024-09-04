@@ -3,8 +3,6 @@ require_once 'partials/top.php';
 
 $isAdmin = 1;
 
-$db = connectToDB();
-
 $query = 'SELECT bookings.name AS `Bname`,
                  `date`,
                  services.name AS `Sname`,
@@ -15,25 +13,46 @@ $query = 'SELECT bookings.name AS `Bname`,
 
 
 
-$db = connectToDB();
+// $db = connectToDB();
 
 
-// try to run the query
-try
-{
+// // try to run the query
+// try
+// {
+//     $stmt = $db->prepare($query);
+//     $stmt->execute();
+//     $bookings = $stmt->fetchAll();
+// }
+// catch (PDOException $e)
+// {
+//     consoleLog($e->getMessage(), 'DB List Fetch', ERROR);
+//     die('There was an error getting data from the database');
+// }
+
+
+$dsn = "mysql:host=localhost;dbname=igdaikee_200_assessment";
+$username = "root";
+$password = "";
+
+try {
+    $db = new PDO($dsn, $username, $password);
     $stmt = $db->prepare($query);
     $stmt->execute();
     $bookings = $stmt->fetchAll();
-}
-catch (PDOException $e)
-{
+} catch(PDOException $e) {
     consoleLog($e->getMessage(), 'DB List Fetch', ERROR);
-    die('There was an error getting data from the database');
+    die('There was an error getting service data from the database');
 }
 
 
 ?>
+
+<a role="button" class="grey-button" style="margin-bottom:0.6rem;" href="manage-services.php">Manage services</a>
+
+
+
 <article>
+    <h3>Bookings</h3>
     <table>
         <tr>
             <th>Name</th>

@@ -1,17 +1,23 @@
 <?php
 require_once 'partials/top.php';
 
-$serviceid = $_GET['service']; // Error protection needed
+$serviceid = $_GET['service'];
 
 ?>
 <article>
+    <h3>Create a booking</h3>
     <form method="post" action="add-booking.php">
         <label>Service</label>
         <select name="service" required>
             <option value="">Select a service:</option>
-            <option value="1" <?php if ($serviceid == 'service1') {echo 'selected';} ?> ><?= SERVICE_1 ?></option>  <!-- The PHP sets the correct service to be selected by default-->
-            <option value="2" <?php if ($serviceid == 'service2') {echo 'selected';} ?> ><?= SERVICE_2 ?></option>
-            <option value="3" <?php if ($serviceid == 'service3') {echo 'selected';} ?> ><?= SERVICE_3 ?></option>
+                <?php
+                foreach ($services as $service)
+                {
+                    echo '<option value="' . $service['id'] . '"';
+                    if ($serviceid == 'service' . $service['id']) {echo ' selected';} // If this is the service the user clicked on then select it by default
+                    echo '>' . constant('SERVICE_NAME_' . $service['id']) . '</option>';
+                }
+                ?>
         </select>
 
         <label>Location</label>

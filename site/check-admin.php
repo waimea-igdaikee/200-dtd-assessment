@@ -2,13 +2,6 @@
 
 require_once 'partials/top.php';
 
-?>
-
-
-<h3>Working...</h3>
-
-<?php
-
 $username = $_POST['username'];
 $password = $_POST['password'];
 
@@ -20,7 +13,4 @@ if ($username == "admin" && $password == "hunter123") {
     header("location: form-admin.php?wrong=1");
 }
 
-?>
-
-
-<?php include 'partials/bottom.php'; ?>
+include 'partials/bottom.php'; ?>
