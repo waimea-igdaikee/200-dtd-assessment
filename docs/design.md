@@ -117,6 +117,7 @@ My Mum doesn't need a whole lot of information about her clients; the only (pote
 ![Video showing that the website works](images/video.mp4)\
 https://github.com/waimea-igdaikee/200-dtd-assessment/raw/main/docs/images/video.mp4
 
+The above video is a full demonstration of the website's functionality. Along with showing the design of all the pages, it shows the creation and deletion of bookings, and the creation, modification, and deletion of services. It also demonstrates some usability features like error prevention.
 
 
 -------------------------------------------------
